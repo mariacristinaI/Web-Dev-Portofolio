@@ -40,5 +40,3 @@ It features a theme mode with the option to switch between a cyberpunk colour sc
 ![Maria's GitHub stats](https://github-readme-stats.vercel.app/api?username=mariacristinaI&show_icons=true&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs&title_color=14c1c1&text_color=0D0D0D&icon_color=14c1c1&custom_title=GitHub_Stats)
 
 <hr />
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=mariacristinaI/mariacristinaI)
