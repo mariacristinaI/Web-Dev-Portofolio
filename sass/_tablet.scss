@@ -1,0 +1,73 @@
+/********** Tablet View **********/
+#navbar > ul, #navbar.classic > ul {
+    grid-template-columns: 1% 15% 14% 17% 16% 10%;
+    gap:3%;
+}
+    .nav-item, #sitename > h1 {
+        font-size: 18px;
+    }
+#welcome-section, #welcome-section.classic {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap:3%;
+    padding-top: 0;
+}
+    .avatar, #welcome-section.classic > .avatar {
+        padding:10% 5% 5% 5%;
+    }
+    #welcome-section.classic > .avatar {
+        border-bottom: 4px solid $classic-blue;
+    }
+    .on-off, #welcome.section.classic > .on-off {
+        width: 40%;
+    }
+
+    span{
+        font-size:24px;
+    }
+
+#site-name {
+    h1 {
+    font-size: 3.2em;
+    font-weight: 100;
+    letter-spacing: 0.25rem;
+    margin-top: auto;
+    margin-bottom: 5px;
+    }  
+    h2 {
+        font-size: 1.05em;
+        font-weight: 300;
+        letter-spacing: .85rem;
+        padding-left: .35rem;
+    }
+}
+        
+.section-title {
+    margin-top: 10%;
+    width:100%;
+}
+#description.classic > .section-title,
+#skills.classic > .section-title,
+#experience.classic > .section-title,
+#projects.classic > .section-title,
+#contact.classic > .section-title,
+#social.classic > .section-title {
+    width: auto;
+}
+.project {
+    height:auto;
+}
+#contact {
+    margin-bottom: 25%;
+    width:initial;
+}
+#availability {
+    position:relative;
+}
+form {
+    grid-template-columns:25% 50%;
+    margin: 5% 20% 5% 20%;
+}
+#year {
+    font-size: 1rem;
+}
