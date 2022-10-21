@@ -37,6 +37,4 @@ It features a theme mode with the option to switch between a cyberpunk colour sc
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mariacristinaI&text_color=0D0D0D&ring=B70E91&currStreakLabel=14c1c1)](https://git.io/streak-stats)
 
-![Maria's GitHub stats](https://github-readme-stats.vercel.app/api?username=mariacristinaI&show_icons=true&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs&title_color=14c1c1&text_color=0D0D0D&icon_color=14c1c1&custom_title=GitHub_Stats)
-
 <hr />
