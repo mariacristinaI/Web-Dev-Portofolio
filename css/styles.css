@@ -80,6 +80,8 @@ img, picture {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  column-gap: 2%;
+  row-gap: 2%;
   padding: 0; }
   #gallery figure {
     opacity: 50%; }
@@ -197,6 +199,7 @@ form {
     z-index: -1; }
   form .button {
     cursor: pointer;
+    color: #FFFFFF;
     font-family: inherit;
     font-weight: bold;
     text-align: center;
@@ -734,8 +737,7 @@ body.classic, #navbar.classic > ul {
   background-color: #1a0076;
   border-style: outset;
   border-right-color: #282A29;
-  border-bottom-color: #282A29;
-  color: #FFFFFF; }
+  border-bottom-color: #282A29; }
 #contact.classic .button:hover {
   border: 2px inset #FFFFFF;
   background: silver;
@@ -899,6 +901,9 @@ body.classic, #navbar.classic > ul {
     padding-left: 4%;
     text-align: initial; }
 
+  #showcase {
+    padding-bottom: 3%; }
+
   #gallery {
     grid-template-columns: repeat(3, 1fr);
     padding: 1% 1% 1% 1%; }
@@ -1009,6 +1014,9 @@ body.classic, #navbar.classic > ul {
 
   #xp-section {
     transform: none; }
+
+  #showcase {
+    padding-bottom: 12%; }
 
   #gallery {
     grid-template-columns: repeat(2, 1fr); }
@@ -1178,9 +1186,6 @@ body.classic, #navbar.classic > ul {
   #contact.classic > .section-title,
   #social.classic > .section-title {
     width: 100%; }
-
-  .project {
-    height: auto; }
 
   #availability {
     position: relative; }

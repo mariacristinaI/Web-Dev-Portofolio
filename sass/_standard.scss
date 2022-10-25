@@ -90,6 +90,8 @@ img, picture {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
+    column-gap: 2%;
+    row-gap: 2%;
     padding: 0;
     figure{
         opacity: 50%;
@@ -221,6 +223,7 @@ form {
     
     .button {
         cursor: pointer;
+        color: $white;
         font-family: inherit;
         font-weight: bold;
         text-align: center;

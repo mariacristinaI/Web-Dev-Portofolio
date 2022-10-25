@@ -157,6 +157,9 @@
             padding-left: 4%;
             text-align: initial;
         }
+        #showcase {
+            padding-bottom: 3%;
+        }
         #gallery {
             grid-template-columns: repeat(3, 1fr);
             padding: 1% 1% 1% 1%;
@@ -276,6 +279,9 @@
     }
     #xp-section {
         transform:none;
+    }
+    #showcase {
+        padding-bottom: 12%;
     }
     #gallery {
         grid-template-columns: repeat(2, 1fr);
