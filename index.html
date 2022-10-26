@@ -21,11 +21,11 @@
         <nav id="navbar">
             <ul>
                 <li id="smudge"></li>
-                <li class="nav-item"><a href="#description">About me</a></li>
-                <li class="nav-item"><a href="#skills">Skills</a></li>
-                <li class="nav-item"><a href="#experience">Experience</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item" onclick="toggleAbout()"><a href="#description">About me</a></li>
+                <li class="nav-item" onclick="toggleSkills()"><a href="#skills">Skills</a></li>
+                <li class="nav-item" onclick="toggleXP()"><a href="#experience">Experience</a></li>
+                <li class="nav-item" onclick="toggleProjects()"><a href="#projects">Projects</a></li>
+                <li class="nav-item" onclick="toggleContact()"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -54,7 +54,7 @@
                 <h3 class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> About me</h3>
                 <p class="section-text">
                     I am passionate about technology and writing; with geography, video games and neuroscience as side interests.
-                    During the course of my work career, I  managed to accrue  6  years of  work experience as a <strong>detail-oriented content manager</strong>.
+                    During the course of my work career, I  managed to accrue  5  years of  work experience as a <strong>detail-oriented content manager</strong>.
                 </p>
             </section>
             <section id="skills">
@@ -213,7 +213,7 @@
         <!-- City -->
         <section id="city-skyline">
             <div class="background-buildings sky">
-                <p class="disclaimer">* Different websites made from scratch in HTML5, CSS3 and Javascript for testing different features and functionalies.</p>
+                <p id="disclaimer">* Different websites made from scratch in HTML5, CSS3 and Javascript for testing different features and functionalies.</p>
                 <div></div><div></div>
                 <div class="bb1 building-wrap">
                     <div class="bb1a bb1-window"></div>

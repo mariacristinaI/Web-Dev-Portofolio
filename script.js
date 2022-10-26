@@ -29,7 +29,62 @@ var data = [
 
  /********** Display On-Click **********/
 /* If the element with the id "xp-section" is not displayed, display it. If it is displayed, hide it.*/
-document.getElementById("xp-section").style.display = 'none';
+function toggleAbout() {
+  document.getElementById("welcome-section").style.display = "grid";
+  document.getElementById("city-skyline").style.display = "block";
+  document.getElementById("description").style.display = "block";
+  document.getElementById("skills").style.display = "none";
+  document.getElementById("experience").style.display = "none";
+  document.getElementById("projects").style.display = "none";
+  document.getElementById("disclaimer").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+  document.getElementById("social").style.display = "none";
+}
+function toggleSkills() {
+  document.getElementById("welcome-section").style.display = "none";
+  document.getElementById("skills").style.display = "block";
+  document.getElementById("city-skyline").style.display = "block";
+  document.getElementById("description").style.display = "none";
+  document.getElementById("experience").style.display = "none";
+  document.getElementById("projects").style.display = "none";
+  document.getElementById("disclaimer").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+  document.getElementById("social").style.display = "none";
+}
+function toggleXP() {
+  document.getElementById("welcome-section").style.display = "none";
+  document.getElementById("experience").style.display = "block";
+  document.getElementById("skills").style.display = "none";
+  document.getElementById("description").style.display = "none";
+  document.getElementById("projects").style.display = "none";
+  document.getElementById("city-skyline").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+  document.getElementById("social").style.display = "none";
+}
+function toggleProjects() {
+  document.getElementById("welcome-section").style.display = "none";
+  document.getElementById("projects").style.display = "block";
+  document.getElementById("city-skyline").style.display = "block";
+  document.getElementById("disclaimer").style.display = "block";
+  document.getElementById("skills").style.display = "none";
+  document.getElementById("description").style.display = "none";
+  document.getElementById("experience").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+  document.getElementById("social").style.display = "none";
+}
+function toggleContact() {
+  document.getElementById("welcome-section").style.display = "none";
+  document.getElementById("contact").style.display = "block";
+  document.getElementById("social").style.display = "block";
+  document.getElementById("welcome-section").style.display = "none";
+  document.getElementById("skills").style.display = "none";
+  document.getElementById("description").style.display = "none";
+  document.getElementById("experience").style.display = "none";
+  document.getElementById("projects").style.display = "none";
+  document.getElementById("city-skyline").style.display = "none";
+}
+
+/*document.getElementById("xp-section").style.display = 'none';
 function display() {
   var list = document.getElementById("xp-section");
   if (list.style.display === "none") {
@@ -37,7 +92,7 @@ function display() {
   } else {
     list.style.display = "none";
   }
-}
+}*/
 
 /********** MODE **********/
 /* A function that changes the theme of the webpage. */

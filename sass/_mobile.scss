@@ -4,6 +4,7 @@
     }
     nav, #navbar.classic {
         background: none;
+        border-bottom: none;
     }
     nav > ul, #navbar.classic > ul {
         background:none;
@@ -24,28 +25,32 @@
             background: $silver;
         }
         #smudge {
-            display:none;
+            background-color: #111111;
+            clip-path: polygon(13% 0, 70% 0%, 100% 0, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0 36%);
         }
         #smudge.classic {
             display: block;
             height: 100%;
             width: auto;
         }
-
-    #site-name > h1 {
-        font-size: 2.3em;
-        font-weight: 100;
-        letter-spacing: 0.20rem;
-        margin-bottom: 5px;
-    }
-    #site-name > h2 {
-        font-size: 1.05em;
-        font-weight: 300;
-        letter-spacing: .85rem;
-        padding-left: .35rem;
+    
+    #site-name {
+        padding-top: 25vh;
+        h1 {
+            font-size: 2.3em;
+            font-weight: 100;
+            letter-spacing: 0.20rem;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.05em;
+            font-weight: 300;
+            letter-spacing: .85rem;
+            padding-left: .35rem;
+        }
     }
     #welcome-section, #welcome-section.classic {
-        display:block;
+        display:block !important;
         padding-top:0;
     }  
         .avatar, #welcome-section.classic > .avatar {
@@ -96,12 +101,12 @@
     .terminal span,
     .on-off-message,
     #experience, #projects, 
-    .xp-company, .xp-title,
+    .xp-company, .xp-title, .xp-description,
     #status-for {
         font-size: 1rem;
     }
 
-    .disclaimer {
+    #disclaimer {
         font-size: 0.8rem;
     }
 
@@ -173,7 +178,7 @@
                 margin-bottom: 5%;
             }
         }   
-        .disclaimer {
+        #disclaimer {
             margin-top: 10%;
         }
 
@@ -199,14 +204,13 @@
 
     /********** Super EXTRA small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-    #site-name {
-        margin-top: 25%;
+    #site-name.classic {
+        padding-top: 30vh;
         position: relative;
     }
-    #site-name.classic {
-        margin-top: 38%;
-    }
     #site-name {
+        padding-top: 20vh;
+        position: relative;
         h1 {
             display:flex;
             align-items: center;
@@ -289,7 +293,7 @@
         #projects {
             display: block;
         }
-    .disclaimer {
+    #disclaimer {
         font-size: 12px;
         text-align: right;
     }

@@ -14,9 +14,26 @@ body, body.classic {
     overflow-x: hidden;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
 img, picture {
 	display: block;
 	max-width: 100%;
+}
+
+#site-name {
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15vh 0 4% 0;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .blinker {
@@ -119,7 +136,7 @@ img, picture {
         width: 100%;
     }
 
-.disclaimer {
+#disclaimer {
     font-size: 1rem;
     font-style: italic;
     margin-top: 1%;
