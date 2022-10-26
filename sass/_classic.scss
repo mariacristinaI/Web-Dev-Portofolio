@@ -1,9 +1,9 @@
 /********** WIN 95 STYLE **********/
 @font-face {
     font-family: 'W95FA';
-    src: url('../Portofolio/fonts/w95fa.woff2') format('woff2'),
-        url('../Portofolio/fonts/w95fa.woff')  format('woff'),
-        url('../Portofolio/fonts/W95FA.otf') format('opentype');
+    src: url('../assets/fonts/w95fa.woff2') format('woff2'),
+        url('../assets/fonts/w95fa.woff')  format('woff'),
+        url('../assets/fonts/W95FA.otf') format('opentype');
   }
 body.classic {
     background-color: $teal;
