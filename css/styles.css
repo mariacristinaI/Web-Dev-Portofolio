@@ -1222,7 +1222,10 @@ body.classic, #navbar.classic > ul {
     font-size: 36px; }
 
   .input-element {
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  #social .section-title {
+    margin-top: 8%; } }
 /*** CITY SKYLINE ***/
 #city-skyline, .background-buildings, .foreground-buildings {
   height: 300px;
