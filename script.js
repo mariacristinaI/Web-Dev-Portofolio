@@ -29,7 +29,7 @@ var data = [
 
  /********** Display On-Click **********/
 /* If the element with the id "xp-section" is not displayed, display it. If it is displayed, hide it.*/
-function toggleAbout() {
+/*function toggleAbout() {
   document.getElementById("welcome-section").style.display = "grid";
   document.getElementById("city-skyline").style.display = "block";
   document.getElementById("description").style.display = "block";
@@ -82,9 +82,9 @@ function toggleContact() {
   document.getElementById("experience").style.display = "none";
   document.getElementById("projects").style.display = "none";
   document.getElementById("city-skyline").style.display = "none";
-}
+}*/
 
-/*document.getElementById("xp-section").style.display = 'none';
+document.getElementById("xp-section").style.display = 'none';
 function display() {
   var list = document.getElementById("xp-section");
   if (list.style.display === "none") {
@@ -92,7 +92,7 @@ function display() {
   } else {
     list.style.display = "none";
   }
-}*/
+}
 
 /********** MODE **********/
 /* A function that changes the theme of the webpage. */
