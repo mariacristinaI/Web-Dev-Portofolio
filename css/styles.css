@@ -1023,6 +1023,9 @@ body.classic, #navbar.classic > ul {
   #resume, #resume.classic {
     margin: 5% 0 0 0; }
 
+  #experience .section-title {
+    margin-top: 3%; }
+
   #xp-section {
     transform: none; }
 
