@@ -54,7 +54,7 @@ body.classic, #navbar.classic > ul {
     background: #008080;
     border-bottom: 5px ridge $silver;
     h1, h2 {
-        font-family: $font-W95FA;
+        font-family: "W95FA.otf", sans-serif;
     }
 }
 
@@ -70,7 +70,7 @@ body.classic, #navbar.classic > ul {
         -webkit-box-shadow: 1px 1px $black-shadow;
     }
     span {
-        font-family: $font-W95FA;
+        font-family: "W95FA.otf", sans-serif;
     }
     .on-off {
         border: inset $gray;
@@ -219,7 +219,7 @@ body.classic, #navbar.classic > ul {
             color: $black;
         }
         #status, #status-for  {
-            font-family: $font-W95FA;
+            font-family: "W95FA.otf", sans-serif;
         }
         #green {
             background: $gray;

@@ -30,7 +30,7 @@ nav {
 }
     .nav-item {
         cursor: pointer;
-        font-family: $font-Primus;
+        font-family: "Primus-Demo.otf", monospace;
         font-size:27px;
         letter-spacing: .2rem;
         list-style: none;
@@ -302,7 +302,7 @@ nav {
 }
 
 #status {
-    font-family: $font-Primus;
+    font-family: "Primus-Demo.otf", monospace;
 }
 #contact:hover + #availability{
     box-shadow: 0 0 .5rem #14c1c1, 0 0 .5rem #189494, 0 0 .5rem #134848;
