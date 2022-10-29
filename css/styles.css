@@ -1026,7 +1026,7 @@ footer {
     text-align: left;
   }
   #navbar.classic > ul > .nav-item {
-    border: 1px solid var(--gray);
+    border: none;
     background: var(--silver);
   }
   #smudge {
@@ -1124,7 +1124,7 @@ footer {
   }
   .section-title {
     margin-top: 10%;
-    width: 100%;
+    width: 100% !important;
   }
   .section-text {
     text-align: initial;
@@ -1153,7 +1153,7 @@ footer {
   .xp-company,
   .xp-description,
   .xp-title {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .icon {
     margin: 1% 2% 1% 1%;
@@ -1245,6 +1245,10 @@ footer {
   .avatar {
     padding: 10% 5% 5% 5%;
   }
+  .avatar img {
+    height: 250px;
+    width: 270px; 
+  }
   #welcome-section.classic > .avatar {
     border-bottom: 4px solid var(--classic-blue);
   }
@@ -1273,15 +1277,7 @@ footer {
   }
   .section-title {
     margin-top: 10%;
-    width: 100%;
-  }
-  #contact.classic > .section-title,
-  #description.classic > .section-title,
-  #experience.classic > .section-title,
-  #projects.classic > .section-title,
-  #skills.classic > .section-title,
-  #social.classic > .section-title {
-    width: auto;
+    width: 100% !important;
   }
   .project {
     height: auto;
@@ -1320,11 +1316,8 @@ footer {
 
 /******** MOBILE ********/
 @media (max-width: 479px) {
-  #site-name {
-    padding-top: 20vh;
-  }
-  #site-name.classic {
-    padding-top: 25vh;
+  #site-name, #site-name.classic {
+    padding-top: 28%;
   }
   #site-name h1 {
     display: flex;
@@ -1346,12 +1339,11 @@ footer {
     position: initial;
     width: fit-content;
   }
-  #navbar.classic > ul,
-  #navbar > ul {
+  #navbar.classic > ul, #navbar > ul {
     background: 0 0;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
     grid-template-rows: auto;
-    gap: 0;
+    gap: 0 !important;
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -1369,7 +1361,7 @@ footer {
   }
   #navbar.classic > ul > .nav-item {
     border: 1px outset var(--gray);
-    padding: 2% 1% 2% 10%;
+    padding: 2% 0% 0% 10%;
   }
   #smudge {
     display: block;
