@@ -1,0 +1,150 @@
+/********** CYBERPUNK STYLE **********/
+body {
+	background-color: var(--black);
+	background-image: url(/assets/images/modern-design/shapes.svg);
+	border-left: 2px solid var(--neon-pink);
+	font-family: "Jura", monospace,sans-serif;
+	animation: fadeBackground 27s infinite alternate;
+	animation-fill-mode: backwards;
+}
+
+@keyframes fadeBackground {
+	from {
+		background-color: var(--black);
+	}
+	to {
+		background-color: #0b0b0b;
+	}
+}
+
+nav {
+	background: #0f1110;
+	border-bottom: 2px solid var(--dark-border);
+}
+    .nav-item {
+        font-family: "Primus-Demo.otf",monospace;
+    }
+    .nav-item a {
+        color: var(--white);
+    }
+    .nav-item:hover {
+        background-color: var(--neon-pink);
+    }
+    #smudge {
+        background-color: var(--neon-pink);
+        clip-path: polygon(80% 0,100% 70%,70% 90%,0 100%,0 0);
+    }
+
+#site-name {
+	background: 0 0;
+	background: -moz-linear-gradient(top,transparent 0,rgba(0,0,0,.25) 20%,rgba(0,0,0,.5) 45%,rgba(0,0,0,.75) 70%,var(--black) 100%);
+	background: -webkit-linear-gradient(top,transparent 0,rgba(0,0,0,.25) 20%,rgba(0,0,0,.5) 45%,rgba(0,0,0,.75) 70%,var(--black) 100%);
+	background: -o-linear-gradient(top,transparent 0,rgba(0,0,0,.25) 20%,rgba(0,0,0,.5) 45%,rgba(0,0,0,.75) 70%,var(--black) 100%);
+	background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.25) 20%,rgba(0,0,0,.5) 45%,rgba(0,0,0,.75) 70%,var(--black) 100%);
+	border-bottom: 5px ridge var(--dark-border);
+	text-shadow: 0 0 .5rem rgba(255,255,255,.95);
+}
+#welcome-section {
+	border-bottom: 5px ridge var(--dark-border);
+}
+    .avatar img {
+        box-shadow: 0 0 78px 4px var(--black-shadow);
+        -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
+    }
+    .avatar #current-avatar {
+        border: 4px solid var(--neon-pink);
+        border-radius: 0 80% 50% 90%/50% 7% 30% 40%;
+    }
+    .avatar #current-avatar:hover {
+        border-color: var(--neon-teal);
+        box-shadow: 0 0 .5rem var(--neon-teal),0 0 .5rem #189494,0 0 .27rem #134848;
+    }
+    .avatar #pixel-avatar {
+        display: none;
+    }
+
+.section-text,.section-title {
+    background-color: var(--smoky-black);
+    border: 2px solid var(--dark-border);
+}
+.section-title:hover+.section-text {
+	background-color: var(--black);
+	box-shadow: 0 0 .5rem var(--neon-teal),0 0 .5rem #189494,0 0 .5rem #134848;
+}
+
+.xp {
+	background: var(--smoky-black);
+	border: 2px solid var(--dark-border);
+	border-bottom: 5px ridge rgba(20,193,193,.75);
+	border-radius: 20px;
+}
+    .section-title:hover+.xp {
+        border: 3px solid var(--dark-border);
+        box-shadow: 0 0 78px 4px var(--black-shadow);
+        -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
+    }
+    .break {
+        border-bottom: 2px solid var(--dark-border);
+    }
+    .xp-company {
+        color: var(--neon-pink);
+    }
+
+#gallery img {
+	filter: grayscale(90%);
+}
+    #gallery figure:hover {
+        opacity: 100%;
+        box-shadow: 0 0 78px 4px var(--black-shadow);
+        -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
+    }
+    #gallery figure:hover img {
+        filter: grayscale(0);
+    }
+.project {
+	border: 2px solid var(--gray);
+}
+    figcaption {
+        background-color: var(--smoky-black);
+        border: 2px solid var(--dark-border);
+        color: var(--white);
+    }
+
+#availability {
+    background: var(--smoky-black);
+    border: 2px solid var(--dark-border);
+    border-bottom: 5px ridge rgba(20,193,193,.15);
+    border-radius: 20px;
+    color: var(--white);
+    transform: perspective(800px) scale(.95) translateX(10px);
+}
+    #status {
+        font-family: "Primus-Demo.otf",monospace;
+    }
+    #contact:hover+#availability {
+        box-shadow: 0 0 .5rem var(--neon-teal),0 0 .5rem #189494,0 0 .5rem #134848;
+    }
+
+.input-element {
+	color: #134848;
+}
+.button {
+	background: var(--neon-pink);
+	border-radius: 4px;
+	box-shadow: 4px 4px 4px 3px #189494;
+	transition: all .2s ease-in-out;
+}
+    .button:hover {
+        box-shadow: 1px 1px var(--neon-teal),2px 2px var(--neon-teal),3px 3px var(--neon-teal);
+        transform: translateX(-3px);
+    }
+
+.social-media {
+    border-top: 2px solid var(--dark-border);
+}
+
+footer {
+    background: #0f1110;
+    border-top: 2px solid var(--dark-border);
+    color: var(--white);
+}
