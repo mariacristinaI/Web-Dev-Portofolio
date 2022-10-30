@@ -1317,7 +1317,7 @@ footer {
 /******** MOBILE ********/
 @media (max-width: 479px) {
   #site-name, #site-name.classic {
-    padding-top: 28%;
+    padding-top: 35%;
   }
   #site-name h1 {
     display: flex;
