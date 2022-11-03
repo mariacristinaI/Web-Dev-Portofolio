@@ -89,6 +89,9 @@ nav {
     .xp-company {
         color: var(--neon-pink);
     }
+    .highlight-xp {
+        text-shadow: 0 0 25px var(--neon-pink);
+    }
 
 #gallery img {
 	filter: grayscale(90%);
@@ -109,6 +112,9 @@ nav {
         border: 2px solid var(--dark-border);
         color: var(--white);
     }
+    #projects #old-avatar {
+        display: none;
+      }
 
 #availability {
     background: var(--smoky-black);
@@ -144,7 +150,7 @@ nav {
 }
 
 footer {
-    background: #0f1110;
-    border-top: 2px solid var(--dark-border);
+    /*background: #0f1110;
+    border-top: 2px solid var(--dark-border);*/
     color: var(--white);
 }

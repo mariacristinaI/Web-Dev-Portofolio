@@ -50,8 +50,8 @@ body.classic {
         font-family: "W95FA.otf",sans-serif;
     }
 
-#site-name.classic,.highlight-xp {
-    text-shadow: 2px 2px 3px var(--black),0 0 25px #00f,0 0 5px var(--black)08b;
+#site-name.classic, #experience.classic .highlight-xp {
+    text-shadow: 0 0 25px var(--classic-blue);
 }
 
 #welcome-section.classic {
@@ -172,6 +172,9 @@ body.classic {
         background-color: var(--silver);
         border-color: var(--white) var(--black) var(--black) var(--white);
         color: var(--black);
+    }
+    #projects.classic #old-avatar {
+        display: inline-block;
     }
 
 #contact.classic #availability {
