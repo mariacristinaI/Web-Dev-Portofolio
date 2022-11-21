@@ -44,6 +44,7 @@ body.classic {
 
 #site-name.classic {
     background: teal;
+    background-image: url(../assets/images/classic-design/wall.png);
     border-bottom: 5px ridge var(--silver);
 }
     #site-name.classic h1,#site-name.classic h2 {
@@ -81,8 +82,6 @@ body.classic {
 
 #welcome-section.classic .avatar>img {
     box-shadow: none;
-    height: 300px;
-    width: 300px;
 }
     #welcome-section.classic #current-avatar {
         display: none;
@@ -91,6 +90,12 @@ body.classic {
         display: block;
     }
 
+#cat-gif {
+    visibility: hidden;
+}
+#cat-gif.classic {
+    visibility: visible;
+}
 #contact.classic>.section-title,#description.classic>.section-title,#experience.classic>.section-title,#projects.classic>.section-title,#skills.classic>.section-title,#social.classic>.section-title {
     background-color: var(--gray);
     border: 2px;
@@ -104,8 +109,23 @@ body.classic {
     padding: 7px 7px 7px 30px;
     width: 20%;
 }
+
+#marquee {
+    display: none;
+    font-size: 22px;
+}
+#marquee.classic {
+    display: block;
+}
 #experience.classic>.section-title,#projects.classic>.section-title {
 	width: 47%;
+}
+#construction {
+    display: none;
+}
+#construction.classic {
+    display: block;
+    margin: 15px auto;
 }
 
 #contact.classic>.section-title:hover,#description.classic>.section-title:hover,#experience.classic>.section-title:hover,#projects.classic>.section-title:hover,#skills.classic>.section-title:hover,#social.classic>.section-title:hover {
