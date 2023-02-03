@@ -376,22 +376,8 @@ nav ul {
   line-height: 1.4;
 }
 #green {
-  background: linear-gradient(top, #535350 0, #6a6b68 40%, #2c2e2b 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #535350 0,
-    #6a6b68 40%,
-    #2c2e2b 100%
-  );
-  background: -moz-linear-gradient(top, #535350 0, #6a6b68 40%, #2c2e2b 100%);
-  background: -o-linear-gradient(top, #535350 0, #6a6b68 40%, #2c2e2b 100%);
-  background: -ms-linear-gradient(top, #535350 0, #6a6b68 40%, #2c2e2b 100%);
   border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
   box-shadow: inset 0 1px 1px var(--white), 0 1px 3px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 0 1px 1px var(--white), 0 1px 3px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 1px 1px var(--white), 0 1px 3px rgba(0, 0, 0, 0.5);
   float: right;
   margin: 1% 15% 0 0;
   height: 28px;
@@ -400,12 +386,10 @@ nav ul {
 #green-fill {
   background: linear-gradient(top, #222 0, #7cb82e 100%);
   background: -webkit-linear-gradient(top, #222 0, #7cb82e 100%);
-  background: -moz-linear-gradient(top, #222 0, #7cb82e 100%);
   background: -o-linear-gradient(top, #222 0, #7cb82e 100%);
   background: -ms-linear-gradient(top, #222 0, #7cb82e 100%);
   border-radius: 50px;
   -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
   left: 4px;
   top: 4px;
   margin: 7% 5% 10% 5%;
@@ -928,7 +912,6 @@ footer {
   }
   .projects {
     grid-template-columns: repeat(4, 1fr);
-    grid-row: repeat(1, 1fr);
   }
   .project {
     height: 300px;
