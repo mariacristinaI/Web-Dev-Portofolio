@@ -133,11 +133,23 @@ body.classic > p,
 
 #welcome-section.classic {
     border-bottom: 5px ridge var(--silver);
+    grid-template-columns: 30% 60% 10%;
 }
     #welcome-section.classic .terminal {
         border: 3px outset #d3d3d3;
         box-shadow: 1px 1px var(--black-shadow);
         -webkit-box-shadow: 1px 1px var(--black-shadow);
+    }
+    #welcome-section.classic > table {
+        display: initial;
+        margin-left: 10%;
+        width: 100%;
+    }
+    #welcome-section.classic > table > tbody > tr > td > .oldie-buttons,
+    #welcome-section.classic > table > tbody > tr > td > a > .oldie-buttons {
+        margin-top: 12%;
+        width: 120px;
+        height: 35px;
     }
     #navbar.classic > .nav-container > .nav-column > .on-off-message {
         border: inset var(--gray);
@@ -434,6 +446,9 @@ body.classic > p,
 
 /******** MOBILE ********/
 @media (max-width: 767px) {
+    #welcome-section > table {
+        display: none;
+    }
     #profile-wrap {
         margin-top: 0;
     }

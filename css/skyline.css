@@ -11,6 +11,17 @@
   width: 80%;
   text-align: right;
 }
+#city-skyline > .background-buildings > .oldie-css-button {
+  display: none;
+}
+#city-skyline.classic > .background-buildings > .oldie-css-button {
+  display: initial;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  right: 30px;
+  float: right;
+}
 
 #city-skyline {
     margin: auto;
