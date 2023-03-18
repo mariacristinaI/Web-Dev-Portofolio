@@ -60,7 +60,7 @@ h1 {
 p, figcaption {
   line-height: 32px;
 }
-p, a, #terminal::before, .skill-list {
+p, a, #terminal::before, .skill-list, .header-container > .typing {
   font-size: 1.4rem;
 }
 
@@ -412,8 +412,13 @@ h3 {
   }
 
 #disclaimer {
-  width: 90%;
   margin: 2% auto;
+}
+#disclaimer, .header-container {
+  width: 90%;
+}
+.header-container {
+  margin: 0 auto 3% auto;
 }
 
 #gallery {
@@ -587,6 +592,8 @@ form .button {
 @media (min-width: 1024px) {
   #projects > #typing-container {
     padding-top: 2rem;
+  }
+  #projects > #typing-container, .header-container {
     margin-bottom: 2%;
   }
 }
@@ -743,6 +750,12 @@ form .button {
   #description {
     max-width: 100%;
   }
+  .xp-description, .xp-time {
+    font-size: 1rem;
+  }
+  .xp-description, .xp-title {
+    width: 60%;
+  }
 
   #gallery {
     margin: 0 1rem;
@@ -753,6 +766,8 @@ form .button {
   }
   #disclaimer {
     margin: 7% auto;
+  }
+  #disclaimer, .header-container > .typing {
     font-size: 1.2rem;
   }
 

@@ -331,6 +331,12 @@ body.classic > p,
         height: 48px;
         position: absolute;
     }
+    #description.classic > .skill-list > li > #heart-purple {
+        display: inline;
+    }
+    #description.classic > .skill-list > li > #heart-pulse {
+        display: none;
+    }
 
 #disclaimer.classic > a {
     color: var(--classic-blue);

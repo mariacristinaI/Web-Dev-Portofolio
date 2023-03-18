@@ -148,7 +148,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     .highlight-xp, #disclaimer > a {
         text-shadow: 0 0 25px var(--neon-pink);
     }
-#notepad {
+#notepad, #heart-purple {
     display: none;
 }
 .skill {
