@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A web developer's portofolio">
+    <meta name="keywords" content="Maria-Cristina Iosub, Maria Iosub">
+    <meta name="author" content="Maria-Cristina Iosub - Web Developer">
+    <title>Webmaster | Maria-Cristina I.</title>
+    <link rel="icon" href="assets/images/portofolio.png">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="css/modern.css">
+    <link type="text/css" rel="stylesheet" href="css/classic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-container">
+          <div id="smudge" class="nav-column">
+            <a href="index.html" aria-label="Home"></a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="index.html">Home_</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="about.html">About</a>
+          </div>
+          <div class="nav-column nav-item selected">
+            <a href="skills.html">Skills</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="projects.html">Projects</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="nav-column toggle-column toggle-button">
+            <label for="themeCheckbox" class="switch" aria-label="Button to switch between the modern and 95' website design.">
+              <input id="themeCheckbox" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <div id="nostalgic" class="on-off-message">See the 95's design.</div>
+            <div id="in-the-moment" class="on-off-message">Back to current design.</div>
+          </div>
+        </div>
+      </nav>          
+    </header>
+    <main>
+      <div id="site-name">
+        <h2>Maria-Cristina Iosub</h2>
+        <h1>The Webmaster</h1>
+      </div>
+      <div id="hero">
+        <div id="profile">
+          <div id="typing-container"><div class="terminal typing"></div></div>
+          <div id="profile-wrap-skills">
+            <div id="skillbox">
+              <p id="about-text">
+              </p>
+              </br>
+              <div class="skill">
+                  <p class="description-box text-centered"><span class="bold">Languages I speak: </p>
+                  <ul class="skill-list text-centered">
+                    <li><span class="pink-text bold">HTML</span></li>
+                    <li><span class="pink-text bold">CSS</span>, SASS & Bootstrap</li>
+                    <li>Javascript & Angular</li>
+                  </ul>
+                  <p class="description-box text-centered"><span class="bold">Proficiency bonus: </br></span></p>
+                  <ul class="skill-list text-centered">
+                    <Li></br></Li>
+                    <li>+2 in Communication & Public Relations.</li>
+                  </ul>
+              </div>
+              <div class="skill bonus-margin-bottom">
+                 <p class="description-box text-centered"><span class="bold">CMS' I've used: </span></p>
+                 <ul class="skill-list text-centered">
+                    <li><span class="bold neon-text">Adobe Experience Manager</span></li>
+                    <li><span class="bold neon-text">Sharepoint</span></li>
+                    <li>Wordpress & Drupal.</li>
+                  </ul>
+                <p class="description-box text-centered"><span class="bold">Dev Tools: </span></p>
+                <ul class="skill-list text-centered">
+                  <li>Git & Terminal</li>
+                  <li>VSCode</li>
+                </ul>
+              </div>
+            </div>
+            <div id="next-link-container">
+              <span class="prompt-symbol"><< </span><a class="next-link" href="about.html">About me</a><span class="prompt-symbol"> | </span><a class="next-link" href="projects.html">View My Projects</a><span class="prompt-symbol">>></span>
+            </div>
+            <div id="experience">
+              <h3 class="section-title" onclick="display()" tabindex=0 onkeydown="display()"><i class="fa fa-star arrow" aria-hidden="true"></i><img id="notepad" src="assets/images/classic-design/notepad.png">My formative Web experience</h3>
+              <div id="xp-section" class="section-text">
+                  <table cellpadding = "5" cellspacing = "5">
+                      <thead>
+                          <tr>
+                              <th class="xp-company">Dell Technologies</th>
+                              <th class="xp-title highlight-xp">Website Front-end Developer</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="xp-time"><p>June 2022 - Present</p></td>
+                              <td class="xp-description">
+                                  Driving landing page creation and development in CMS, landing page updates, and content change requests from various stakeholders across the business.
+                                  Work is optimized for UX, maintaining brand consistency. Involved in SharePoint development and UAT and quality control testing both pre- and post-publishing.
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="break"></div>
+                  <table cellpadding = "5" cellspacing = "5">
+                      <thead>
+                          <tr>
+                              <th class="xp-company">Digital Star</th>
+                              <th class="xp-title">Web Content Editor</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="xp-time"><p>May 2021 - March 2022</p></td>
+                              <td class="xp-description">
+                                  Content Management Systems highlight.
+                                  Maintained, updated, curated and created landing pages for the contracted clients of the company in either Adobe Experience Manager, Wordpress or Drupal.
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="break"></div>
+                  <table cellpadding = "5" cellspacing = "5">
+                      <thead>
+                          <tr>
+                              <th class="xp-company">Software Development Academy</th>
+                              <th class="xp-title">JavaScript Trainee</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="xp-time"><p>October 2020 - May 2021</p></td>
+                              <td class="xp-description">
+                                  Rounded out my web development skill set with advanced notions of HTML, CSS, JavaScript, and with some training on CSS preprocessors, RWD frameworks and Content Management Systems. 
+                                  I focused on structural programming and devising design patterns.
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="break"></div>
+                  <table cellpadding = "5" cellspacing = "5">
+                      <thead>
+                          <tr>
+                              <th class="xp-company">Johns Hopkins University</th>
+                              <th class="xp-title">HTML, CSS and Javascript for Web Developers (course)</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="xp-time"><p>November 2020 - January 2021</p></td>
+                              <td class="xp-description">
+                                  Extended my knowledge of implementing single-page applications with HTML and CSS. 
+                                  I used Javascript to build a fully functional web application that utilized Ajax to expose server-side functionality and data to the end user.
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="copyright">
+      <div id="copyright-wrapper">
+        <button onclick="topFunction()" id="to-top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+       &copy;<span id="year"></span> Maria-Cristina Iosub.
+      </div>
+    </footer>
+<script src="script.js" defer></script>
+<script src="js/skills.js" defer></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

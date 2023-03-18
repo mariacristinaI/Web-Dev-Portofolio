@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A web developer's portofolio">
+    <meta name="keywords" content="Maria-Cristina Iosub, Maria Iosub">
+    <meta name="author" content="Maria-Cristina Iosub - Web Developer">
+    <title>Webmaster | Maria-Cristina I.</title>
+    <link rel="icon" href="assets/images/portofolio.png">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="css/modern.css">
+    <link type="text/css" rel="stylesheet" href="css/classic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-container">
+          <div id="smudge" class="nav-column">
+            <a href="index.html" aria-label="Home"></a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="index.html">Home_</a>
+          </div>
+          <div class="nav-column nav-item selected">
+            <a href="about.html">About</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="skills.html">Skills</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="projects.html">Projects</a>
+          </div>
+          <div class="nav-column nav-item">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="nav-column toggle-column toggle-button">
+            <label for="themeCheckbox" class="switch" aria-label="Button to switch between the modern and 95' website design.">
+              <input id="themeCheckbox" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <div id="nostalgic" class="on-off-message">See the 95's design.</div>
+            <div id="in-the-moment" class="on-off-message">Back to current design.</div>
+          </div>
+        </div>
+      </nav>          
+    </header>
+    <main>
+      <div id="site-name">
+        <h2>Maria-Cristina Iosub</h2>
+        <h1>The Webmaster</h1>
+      </div>
+      <div id="hero">
+        <div id="profile">
+          <div id="typing-container"><div class="terminal typing"></div></div>
+          <div id="profile-wrap">
+            <div id="avatar">
+              <img id="about-avatar" src="assets/images/modern-design/starhit.webp" alt="Image of an arcade game"/>
+              <img id="old-avatar" src="assets/images/classic-design/old-computer.gif" alt="Image of a pixelated character"/>
+              <div id="codename"><p>1311891-318919209141</p></div>
+            </div>
+            <div id="description">
+              <p id="about-text">
+                Whether working on my own projects or collaborating with a team, I am dedicated to delivering the best possible results 
+                 and never stop seeking ways to improve and grow as a <span class="bold">developer</span>.
+              </p>
+              </br>
+              <p class="description-box"><span class="bold">Occupation: </span><span class="pink-text">Webmaster</span>.</p>
+              <p class="description-box"><span class="bold">Side Interests: </span>Geography, Video Games, Neuroscience.</p>
+              <p class="description-box"><span class="bold">Status:</span>
+                <ul class="skill-list">
+                  <li><i class="fa fa-check" aria-hidden="true"></i>  5 years of experience as a <span class="bold neon-text">detail-oriented content manager</span></li>
+                  <li><i class="fa fa-check" aria-hidden="true"></i>  Almost 2 years as a <span class="bold neon-text">website front-end developer</span></li>
+                  <li><i class="fa fa-check" aria-hidden="true"></i>  Over 40 courses completed and 2 congresses organized</li>
+                  <li><i class="fa fa-check" aria-hidden="true"></i>  +2 mentor sessions</li>
+                  <li><i class="fa fa-check" aria-hidden="true"></i>  11 countries visited</li>
+                </ul>
+              </p>
+              <div id="next-link-container">
+                <a class="next-link" href="index.html">Intro</a><span class="prompt-symbol"> | </span><a class="next-link" href="skills.html">Skill set</a><span class="prompt-symbol"> | </span><a class="next-link" href="projects.html">View My Projects</a><span class="prompt-symbol"> | </span><a class="next-link" href="contact.html">Contact</a><span class="prompt-symbol"> >></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="copyright">
+      <div id="copyright-wrapper">
+        <button onclick="topFunction()" id="to-top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+       &copy;<span id="year"></span> Maria-Cristina Iosub.
+      </div>
+    </footer>
+<script src="script.js" defer></script>
+<script src="js/about-me.js" defer></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

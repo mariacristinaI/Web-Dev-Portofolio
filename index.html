@@ -9,314 +9,82 @@
     <meta name="author" content="Maria-Cristina Iosub - Web Developer">
     <title>Webmaster | Maria-Cristina I.</title>
     <link rel="icon" href="assets/images/portofolio.png">
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles.css">
     <link type="text/css" rel="stylesheet" href="css/modern.css">
     <link type="text/css" rel="stylesheet" href="css/classic.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <ul>
-                <li id="smudge"></li>
-                <li class="nav-item"><a href="#description">About me</a></li>
-                <li class="nav-item"><a href="#skills">Skills</a></li>
-                <li class="nav-item"><a href="#skills">Experience</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+          <div class="nav-container">
+            <div id="smudge" class="nav-column">
+              <a href="index.html" aria-label="Home"></a>
+            </div>
+            <div class="nav-column nav-item selected">
+              <a href="index.html">Home_</a>
+            </div>
+            <div class="nav-column nav-item">
+              <a href="about.html">About</a>
+            </div>
+            <div class="nav-column nav-item">
+              <a href="skills.html">Skills</a>
+            </div>
+            <div class="nav-column nav-item">
+              <a href="projects.html">Projects</a>
+            </div>
+            <div class="nav-column nav-item">
+              <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-column toggle-column toggle-button">
+              <label for="themeCheckbox" class="switch" aria-label="Button to switch between the modern and 95' website design.">
+                <input id="themeCheckbox" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <div id="nostalgic" class="on-off-message">See the 95's design.</div>
+              <div id="in-the-moment" class="on-off-message">Back to current design.</div>
+            </div>
+          </div>
+        </nav>          
     </header>
     <main>
-        <div id="site-name">
-            <h1>Maria-Cristina Iosub</h1>
-            <h2>Web Portofolio</h2>
+      <div id="site-name">
+        <h2>Maria-Cristina Iosub</h2>
+        <h1>The Webmaster</h1>
+      </div>
+      <div id="welcome-section">
+        <div id="avatar">
+          <img id="current-avatar" src="assets/images/modern-design/avatar.webp" alt="Avatar"/>
+          <img id="pixel-avatar" src="assets/images/classic-design/pixelavatar.webp" alt="Avatar"/>
         </div>
-        <div id="welcome-section">
-            <div class="avatar">
-                <img id="current-avatar" src="assets/images/modern-design/avatar.webp" alt="Avatar" />
-                <img id="pixel-avatar" src="assets/images/classic-design/pixelavatar.webp" alt="Avatar"/>
-            </div>
-            <div class="terminal"><span id="terminaltext" class="typing"></span><span class="blinker">&#32;</span></div>
-            <div class="on-off">
-                <div class="switch">
-                    <input id="themeCheckbox" type="checkbox" class="switch-input" />
-                    <label for="themeCheckbox" class="switch-label"></label>
-                </div>
-                <div id="nostalgic" class="on-off-message">See the 95's design.</div>
-                <div id="in-the-moment" class="on-off-message">Back to current design.</div>
-            </div>
+        <div>
+          <div id="greeting">
+            <h1>Hi there, I am Maria!</h1></br>
+            <p>I am a <span class="bold neon-text">Website Front-End Developer</span>, who is passionate about creating user-friendly websites and web applications.</br>
+              I specialize in HTML5, CSS3, Javascript, and Content Management Systems, but my love of learning keeps me constantly exploring new technologies.</br></br>
+              Currently, I am working on expanding my knowledge of web development technologies and <span class="bold neon-text">Web3</span>.</p>
+          </div>
+          <div id="next-link-container" class="intro-links">
+            <a class="next-link" href="about.html">More about me</a><span class="prompt-symbol"> | </span><a class="next-link" href="projects.html">View My Projects</a><span class="prompt-symbol"> >></span>
+          </div>
         </div>
-        <article id="resume">
-            <section id="description">
-                <img id="cat-gif" src="assets/images/classic-design/cat.gif">
-                <h3 id="about-me-title" class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> About me</h3>
-                <p class="section-text">
-                    I am passionate about technology and writing; with geography, video games and neuroscience as side interests.
-                    During the course of my work career, I  managed to accrue  5  years of  work experience as a <strong>detail-oriented content manager</strong>.
-                </p>
-            </section>
-            <section id="skills">
-                <h3 class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> Skills</h3>
-                <div class="section-text">
-                    <p>
-                        Whether working on academic, extracurricular, or professional projects, I apply proven communication, language, and analytical skills.
-                        <br/><br/>
-                        Below is a list of my current technical skills:
-                    </p>
-                    <br>
-                    <div class="icons">
-                        <img class="icon" src="assets/images/skills/html.webp" loading="lazy" alt="HTML">
-                        <img class="icon" src="assets/images/skills/css.webp" loading="lazy" alt="CSS">
-                        <img class="icon" src="assets/images/skills/sass.webp" loading="lazy" alt="SASS">
-                        <img class="icon" src="assets/images/skills/bootstrap.webp" loading="lazy" alt="Bootstrap">
-                        <img class="icon" src="assets/images/skills/js.webp" loading="lazy" alt="Javascript">
-                        <img class="icon" src="assets/images/skills/AEM.webp" loading="lazy" alt="Adobe Experience Manager">
-                        <img class="icon" src="assets/images/skills/WordPress.webp" loading="lazy" alt="Wordpress">
-                        <img class="icon" src="assets/images/skills/Drupal.webp" loading="lazy" alt="Drupal">
-                        <img class="icon" src="assets/images/skills/git.webp" loading="lazy" alt="Git">
-                        <img class="icon" src="assets/images/skills/vegas.webp" loading="lazy" alt="VEGAS Movie Studio">
-                    </div>
-                    <marquee id="marquee" behavior="scroll" direction="left" scrollamount="7">
-                        <h3>HTML5, CSS3 (with the frameworks: Bootstrap, Bulma, Tailwind), Javascript and Angular, Adobe Experience Manager, Wordpress, Drupal, Git, VEGAS Creative Software. This is only the beginning!</h3>
-                    </marquee>
-                </div>
-            </section>
-            <section id="experience">
-                <h3 class="section-title" onclick="display()"><img class="arrow" src="assets/images/chevron-double-right.webp"> My formative Web experience</h3>
-                <div id="xp-section" class="section-text xp">
-                    <table class="table-wrap">
-                        <thead>
-                            <tr>
-                                <th class="xp-company">Dell Technologies</th>
-                                <th class="xp-title highlight-xp">Website Front-end Developer</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="xp-time"><p>June 2022 - Present</p></td>
-                                <td class="xp-description">
-                                    Driving landing page creation and development in CMS, landing page updates, and content change requests from various stakeholders across the business.
-                                    Work is optimized for UX, maintaining brand consistency. Involved in SharePoint development and UAT and quality control testing both pre- and post-publishing.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="break"></div>
-                    <table class="table-wrap">
-                        <thead>
-                            <tr>
-                                <th class="xp-company">Digital Star</th>
-                                <th class="xp-title">Web Content Editor</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="xp-time"><p>May 2021 - March 2022</p></td>
-                                <td class="xp-description">
-                                    Content Management Systems highlight.
-                                    Maintained, updated, curated and created landing pages for the contracted clients of the company in either Adobe Experience Manager, Wordpress or Drupal.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="break"></div>
-                    <table class="table-wrap">
-                        <thead>
-                            <tr>
-                                <th class="xp-company">Software Development Academy</th>
-                                <th class="xp-title">JavaScript</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="xp-time"><p>October 2020 - May 2021</p></td>
-                                <td class="xp-description">
-                                    Rounded out my web development skill set with advanced notions of HTML, CSS, JavaScript, and with some training on CSS preprocessors, RWD frameworks and Content Management Systems. 
-                                    I focused on structural programming and devising design patterns.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="break"></div>
-                    <table class="table-wrap">
-                        <thead>
-                            <tr>
-                                <th class="xp-company">Johns Hopkins University</th>
-                                <th class="xp-title">HTML, CSS and Javascript for Web Developers (course)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="xp-time"><p>November 2020 - January 2021</p></td>
-                                <td class="xp-description">
-                                    Extended my knowledge of implementing single-page applications with HTML and CSS. 
-                                    I used Javascript to build a fully functional web application that utilized Ajax to expose server-side functionality and data to the end user.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-            <section id="projects">
-                <h3 class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> Stuff I've created*</h3>
-                <img id="construction" src="assets/images/classic-design/under-construction.webp" alt="A yellow and black banner that reads 'Under Construction'" />
-                <div id="showcase" class="section-text">
-                    <div id="gallery">
-                        <figure>
-                            <a href="https://mariacristinai.github.io/CatPhotoApp/" target="blank">
-                                <img class="project" src="assets/images/projects/cat-photo-app.webp" loading="lazy" alt="App displays a few cat photos along with a CSS animation of a beating heart and moving text.">
-                            </a>
-                            <figcaption>The Cat Photo App.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/Luna-s-Pie-Shop/index.html" target="blank">
-                                <img class="project" src="assets/images/projects/pie-shop.webp" loading="lazy" alt="A simple e-commerce web app highlighting the use of SASS workflow and browser APIs.">
-                            </a>
-                            <figcaption>Café & Pie Shop.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/HTML-CSS-and-Javascript-for-Web-Developers/Mod5_solution/" target="blank">
-                                <img class="project" src="assets/images/projects/chineserestaurant.webp" loading="lazy" alt="A website for a Chinese Restaurant, deployed as a Single-Page Application.">
-                            </a>
-                            <figcaption>Chinese Restaurant.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/Amusement-Park/index.html" target="blank">
-                                <img class="project" src="assets/images/projects/amusement-park.webp" loading="lazy" alt="An amusement park homepage that leads to a Roller Coaster Tycoon magazine and landing page.">
-                            </a>
-                            <figcaption>The Topic of Digital Amusement Parks.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/Types-of-Online-Forms/" target="blank">
-                                <img class="project" src="assets/images/projects/online-forms.webp" loading="lazy" alt="A quiz form page with a navigation bar that leads to a survey and registration form.">
-                            </a>
-                            <figcaption>Online Forms Showcase.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/Voyage-Of-Life/" target="blank">
-                                <img class="project" src="assets/images/projects/art-voyage.webp" loading="lazy" alt="A screenshot of the art voyage page, featuring six paintings.">
-                            </a>
-                            <figcaption>Stages of Human Life Tribute.</figcaption>
-                        </figure>
-                        <figure>
-                            <a href="https://mariacristinai.github.io/Modern-Art-In-Motion/" target="blank">
-                                <img class="project" src="assets/images/projects/modern-art.webp" loading="lazy" alt="A page that simulates a modern art museum.">
-                            </a>
-                            <figcaption>Modern Art Styles in Code.</figcaption>
-                        </figure>
-                        <figure id="old-avatar">
-                            <img class="project" src="assets/images/classic-design/old-avatar.webp" loading="lazy" alt="Habitica Avatar.">
-                        </figure>
-                    </div>
-                </div>
-            </section>
-        </article>
-        <!-- City -->
-        <div id="city-skyline">
-            <div class="background-buildings sky">
-                <p id="disclaimer">* Different websites made from scratch in HTML5, CSS3 and Javascript for testing different features and functionalies.</p>
-                <div></div><div></div>
-                <div class="bb1 building-wrap">
-                    <div class="bb1a bb1-window"></div>
-                    <div class="bb1b bb1-window"></div>
-                    <div class="bb1c bb1-window"></div>
-                    <div class="bb1d"></div>
-                </div>
-                <div class="bb2">
-                    <div class="bb2a"></div>
-                    <div class="bb2b"></div>
-                </div>
-                <div class="bb3"></div>
-                <div></div>
-                <div class="bb4 building-wrap">
-                    <div class="bb4a"></div>
-                    <div class="bb4b"></div>
-                    <div class="bb4c window-wrap">
-                        <div class="bb4-window"></div>
-                        <div class="bb4-window"></div>
-                        <div class="bb4-window"></div>
-                        <div class="bb4-window"></div>
-                    </div>
-                </div>
-                <div></div><div></div>
-            </div>
-            <div class="foreground-buildings">
-                <div></div><div></div>
-                <div class="fb1 building-wrap">
-                    <div class="fb1a"></div>
-                    <div class="fb1b"></div>
-                    <div class="fb1c"></div>
-                </div>
-                <div class="fb2">
-                    <div class="fb2a"></div>
-                    <div class="fb2b window-wrap">
-                        <div class="fb2-window"></div>
-                        <div class="fb2-window"></div>
-                        <div class="fb2-window"></div>
-                    </div>
-                    </div>
-                <div></div>
-                <div class="fb3 building-wrap">
-                    <div class="fb3a window-wrap">
-                        <div class="fb3-window"></div>
-                        <div class="fb3-window"></div>
-                        <div class="fb3-window"></div>
-                    </div>
-                    <div class="fb3b"></div>
-                    <div class="fb3a"></div>
-                    <div class="fb3b"></div>
-                </div>
-                <div class="fb4">
-                    <div class="fb4a"></div>
-                    <div class="fb4b">
-                        <div class="fb4-window"></div>
-                        <div class="fb4-window"></div>
-                        <div class="fb4-window"></div>
-                        <div class="fb4-window"></div>
-                        <div class="fb4-window"></div>
-                        <div class="fb4-window"></div>
-                    </div>
-                </div>
-                <div class="fb5"></div>
-                <div class="fb6"></div>
-                <div></div><div></div>
-            </div>
-        </div>
-        <!-- Skyline END -->
-        <div id="contact">
-            <h3 class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> Contact</h3>
-            <div id="availability" class="section-text">
-                <div id="green"><div id="green-fill"></div></div>
-                <p id="status">Availability:</p>
-                <p id="status-for">Contributing to Open Source Projects</p>
-            </div>
-            <form action="https://formsubmit.co/640bb843532f339c173840039f71b10e" method="POST">
-                <label class="input-label" for="name">Your name</label>
-                <input id="name" type="text" name="name" class="input-element" placeholder="Ex: William Blake" required/>
-                <!--<label class="nospam" for="last-name"></label>
-                <input class="nospam" autocomplete="off" type="text" id="last-name" name="name" placeholder="Your name here">-->
-                <label class="input-label" for="email">Email</label>
-                <input id="email" type="email" name="email" class="input-element" placeholder="Ex: abc@example.com" required/>
-                <label class="input-label" for="message">Message</label>
-                <textarea id="message" name="message" class="input-element" placeholder="..." rows="5" cols="20" maxlength="2000" required></textarea>
-                <br>
-                <input type="submit" value="Submit" class="button">
-            </form>
-        </div>
-        <br /><br />
-        <section id="social">
-            <h3 class="section-title"><img class="arrow" src="assets/images/chevron-double-right.webp"> Find me on ...</h3>
-            <div class="social-media">
-                <div><a href="https://www.linkedin.com/in/iosubmariacristina/" target="_blank">LinkedIn</a></div>
-                <div><a href="https://github.com/mariacristinaI" target="_blank">Github</a></div>
-            </div>
-        </section>
-        <footer id="copyright"> &copy;<span id="year"></span> Maria-Cristina Iosub.</footer>
+      </div>
+      <div id="terminal">
+        <span class="prompt-symbol">| </span><span id="terminaltext" class="typing"></span><span class="blinker">&#32;</span>
+      </div>
     </main>
+    <footer id="copyright">
+      <div id="copyright-wrapper">
+        <button onclick="topFunction()" id="to-top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+       &copy;<span id="year"></span> Maria-Cristina Iosub.
+      </div>
+    </footer>
 <script src="script.js" defer></script>
+<script src="js/welcome.js" defer></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
