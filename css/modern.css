@@ -166,16 +166,13 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         }
 
 .description-box {
-    border-bottom: 2px solid var(--neon-pink);
+    border-top: 2px solid var(--neon-pink);
     padding: 10px 20px;
     margin: 3px;
     box-shadow: 0 0 78px 4px var(--black-shadow);
     -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
     color: var(--white);
 }
-    .skill > p.description-box {
-        box-shadow: none;
-    }
 
 .fa-star {
     color: #edee46;

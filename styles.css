@@ -734,6 +734,9 @@ form .button {
     text-align: center;
   }
 
+  .skill {
+    width: 100%;
+  }
   .description-box, .skill-list {
     font-size: 19px;
   }
