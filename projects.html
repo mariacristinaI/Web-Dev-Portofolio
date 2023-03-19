@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura&family=Roboto&family=Inconsolata&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -64,21 +64,24 @@
           <div id="gallery">
             <figure>
               <a href="https://mariacristinai.github.io/CatPhotoApp/" target="blank">
-                <img class='project project-1' src="assets/images/projects/cat-photo-app.webp" loading="lazy" alt="App displays a few cat photos along with a CSS animation of a beating heart and moving text.">
+                <img class='project project-1' src="assets/images/projects/cat-photo-app.webp" loading="lazy" alt="Screenshot of the Cat Photo App. The web page displays a few cat photos and basic animations.">
               </a>
-              <figcaption>The Cat Photo App.</figcaption>
+              <figcaption onclick="showDetails1()">The Cat Photo App<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">App displays a few cat photos along with a CSS animation of a beating heart and moving text.</div>
             </figure>
             <figure>
               <a href="https://mariacristinai.github.io/Luna-s-Pie-Shop/index.html" target="blank">
-                <img class='project project-2' src="assets/images/projects/pie-shop.webp" loading="lazy" alt="A simple e-commerce web app highlighting the use of SASS workflow and browser APIs.">
+                <img class='project project-2' src="assets/images/projects/pie-shop.webp" loading="lazy" alt="Screenshot of Luna's Pie Shop. It is a simple pie shop with a cute layout.">
               </a>
-              <figcaption>Café & Pie Shop.</figcaption>
+              <figcaption onclick="showDetails2()">Café & Pie Shop<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">A simple e-commerce web app highlighting the use of SASS workflow and browser APIs.</div>
             </figure>
             <figure>
               <a href="https://mariacristinai.github.io/RNG/" target="blank">
-                <img class='project project-3' src="assets/images/projects/RNG.webp" loading="lazy" alt="A random number generator with the outcome sequence, by definition, containing some patterns detectable in hindsight but unpredictable to foresight.">
+                <img class='project project-3' src="assets/images/projects/RNG.webp" loading="lazy" alt="Screenshot of RNG. A random number generator with a casino-themed design.">
               </a>
-              <figcaption>Random Number Generator.</figcaption>
+              <figcaption onclick="showDetails3()">Random Number Generator<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">A random number generator with the outcome sequence, by definition, containing some patterns detectable in hindsight but unpredictable to foresight.</div>
             </figure>
             <!--
             <figure>
@@ -90,32 +93,43 @@
             -->
             <figure>
               <a href="https://mariacristinai.github.io/Amusement-Park/index.html" target="blank">
-                <img class='project project-4' class="project" src="assets/images/projects/amusement-park.webp" loading="lazy" alt="An amusement park homepage that leads to a Roller Coaster Tycoon magazine and landing page.">
+                <img class='project project-4' class="project" src="assets/images/projects/amusement-park.webp" loading="lazy" alt="Screenshot of an Amusement Park themed web page featuring a penguin and an animated rollercoaster.">
               </a>
-              <figcaption>The Topic of Digital Amusement Parks.</figcaption>
+              <figcaption onclick="showDetails4()">The Topic of Digital Amusement Parks<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">An amusement park webpage featuring a penguin and rollercoaster drawn in CSS. It leads to a magazine page and landing page, both tribute to the Roller Coaster Tycoon game.</div>
             </figure>
             <figure>
               <a href="https://mariacristinai.github.io/Types-of-Online-Forms/" target="blank">
-                <img class='project project-5' src="assets/images/projects/online-forms.webp" loading="lazy" alt="A quiz form page with a navigation bar that leads to a survey and registration form.">
+                <img class='project project-5' src="assets/images/projects/online-forms.webp" loading="lazy" alt="Screenshot of a HTML/CSS Quiz page. A quiz form page with a navigation bar that leads to a survey and registration form too.">
               </a>
-              <figcaption>Digital Forms Showcase.</figcaption>
+              <figcaption onclick="showDetails5()">Digital Forms Showcase<i class="bi bi-info-circle"></i></figcaption>
+              <div id="info" class="project-details text-centered">A compilation of forms - a registration form, a survey form and a quiz form. You can complete and submit any of them. I will receive your answers.</div>
             </figure>
             <figure>
               <a href="https://mariacristinai.github.io/Voyage-Of-Life/" target="blank">
                 <img class='project project-6' src="assets/images/projects/art-voyage.webp" loading="lazy" alt="A screenshot of the art voyage page, featuring six paintings.">
               </a>
-              <figcaption>"Stages of Human Life" Tribute.</figcaption>
+              <figcaption onclick="showDetails6()">"Stages of Human Life" Tribute<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">A tribute to Thomas Cole's "The Voyage of Life" painting series, with a drawing made in CSS inspired by Mark Rothko.</div>
             </figure>
             <figure>
               <a href="https://mariacristinai.github.io/Modern-Art-In-Motion/" target="blank">
-                <img class='project project-7' src="assets/images/projects/modern-art.webp" loading="lazy" alt="A page that simulates a modern art museum.">
+                <img class='project project-7' src="assets/images/projects/modern-art.webp" loading="lazy" alt="Screenshot of a web page that simulates a modern art museum.">
               </a>
-              <figcaption>Modern Art Styles in Code.</figcaption>
+              <figcaption onclick="showDetails7()">Modern Art Styles in Code<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">What better way to simulate a modern art museum than by featuring a modern style painting and drawings made in code?</div>
+            </figure>
+            <figure>
+              <a href="https://mariacristinai.github.io/Laptop-Sketch/" target="blank">
+                <img class='project project-8' src="assets/images/projects/laptop-sketch.webp" loading="lazy" alt="Screenshot of a simple laptop made in CSS.">
+              </a>
+              <figcaption onclick="showDetails8()">The Sketch of a Delayed Laptop<i class="bi bi-info-circle"></i></figcaption>
+              <div class="project-details text-centered">A minimalistic "blueprint" of a laptop made with HTML5 and CSS3.</div>
             </figure>
           </div>
         </div>
         <div class="header-container">
-          <div class="terminal typing"> ... and a drawing I've made in code. Press the switch in the navigation to see how it changes.</div>
+          <div class="terminal typing"> ... and below a drawing I've made in code. Press the switch in the navigation to see how it changes.</div>
         </div>
         <!-- City -->
         <div id="city-skyline">

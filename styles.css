@@ -57,7 +57,7 @@ img {
 h1 {
   font-weight: 100;
 }
-p, figcaption {
+p {
   line-height: 32px;
 }
 p, a, #terminal::before, .skill-list, .header-container > .typing {
@@ -437,13 +437,23 @@ h3 {
     width: 100%;
   }
     figcaption {
-      padding: 0;
+      padding: 5px;
       margin: 5px 0;
       text-align: center;
-      font-style: italic;
       font-size: 1.3rem;
     }
-  
+    figcaption > .bi-info-circle {
+      cursor: pointer;
+      vertical-align: super;
+      padding: 0 5px 5px 5px;
+      font-size: 1rem;
+      font-style: italic;
+    }
+    .project-details {
+      padding: 10px;
+      font-style: italic;
+    }
+
   #projects-next-link {
     width: 85%;
     margin: 0 auto;

@@ -18,7 +18,7 @@ body.classic > p,
 #description.classic > p,
 #description.classic > .skill-list,
 #skillbox.classic > .skill > .description-box,
-#gallery.classic > figure > figcaption, #city-skyline.classic > .background-buildings > #city-skyline-title,
+#gallery.classic > figure > figcaption, #gallery.classic > figure > .project-details, #city-skyline.classic > .background-buildings > #city-skyline-title,
 #contact.classic > #availability > #status-availability > p {
     color: var(--black);
 }
@@ -133,21 +133,22 @@ body.classic > p,
 
 #welcome-section.classic {
     border-bottom: 5px ridge var(--silver);
-    grid-template-columns: 30% 60% 10%;
+    grid-template-columns: 25% 60% 15%;
 }
     #welcome-section.classic .terminal {
         border: 3px outset #d3d3d3;
         box-shadow: 1px 1px var(--black-shadow);
         -webkit-box-shadow: 1px 1px var(--black-shadow);
     }
-    #welcome-section.classic > table {
-        display: initial;
-        margin-left: 10%;
-        width: 100%;
+    #welcome-section.classic > #widgets {
+        display: block;
     }
-    #welcome-section.classic > table > tbody > tr > td > .oldie-buttons,
-    #welcome-section.classic > table > tbody > tr > td > a > .oldie-buttons {
-        margin-top: 12%;
+    #welcome-section.classic > #widgets > table {
+        margin: 0 auto;
+    }
+    #welcome-section.classic > #widgets > #stamps > .oldie-buttons,
+    #welcome-section.classic > #widgets > #stamps > a > .oldie-buttons {
+        margin: 12% auto 0 auto;
         width: 120px;
         height: 35px;
     }
@@ -230,7 +231,7 @@ body.classic > p,
     box-shadow: none;
 }
 
-#description.classic > .skill-list, #skillbox.classic > .skill > ul{
+#description.classic > .skill-list, #skillbox.classic > .skill > ul, #gallery.classic > figure > .project-details{
     border: 2px inset var(--black);
     background-color: #ffffe1;
 }
@@ -430,6 +431,21 @@ body.classic > p,
     #next-link-container.classic > .next-link, #next-link-container.classic > .prompt-symbol {
         font-size: 1rem;
     }
+    #welcome-section.classic > #widgets {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+    #welcome-section.classic > #widgets > table {
+        margin: 0 0 0 auto;
+    }
+    #welcome-section.classic > #widgets > #stamps > .oldie-buttons, #welcome-section.classic > #widgets > #stamps > a > .oldie-buttons {
+        margin: 3% 5%;
+    }
+    /*#welcome-section.classic > #widgets > table, #welcome-section.classic > #widgets > #stamps {
+        display: flex;
+        flex-direction: column;
+    }*/
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

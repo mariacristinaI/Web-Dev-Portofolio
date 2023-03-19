@@ -8,7 +8,7 @@ body {
     animation-fill-mode: none;
     animation-fill-mode: backwards;
 }
-p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcaption {
+p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcaption, .project-details {
     color: var(--white);
 }
 #navbar {
@@ -65,7 +65,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     font-weight: bold;
 }
 
-#welcome-section > table {
+#welcome-section > #widgets {
     display: none;
 }
 #current-avatar {
@@ -210,6 +210,9 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         #gallery > figure:hover {
             border-color: var(--neon-teal);
             padding: 0;
+        }
+        .project-details {
+            background-color: #210e1c;
         }
 
 #availability {

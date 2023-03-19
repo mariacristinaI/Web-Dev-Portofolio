@@ -15,6 +15,79 @@ function simulateTyping(element, text, delay) {
   
   simulateTyping(terminal, text, 70);
 
+ /********** Display On-Click **********/
+document.getElementsByClassName("project-details")[0].style.display = 'none';
+document.getElementsByClassName("project-details")[1].style.display = 'none';
+document.getElementsByClassName("project-details")[2].style.display = 'none';
+document.getElementsByClassName("project-details")[3].style.display = 'none';
+document.getElementsByClassName("project-details")[4].style.display = 'none';
+document.getElementsByClassName("project-details")[5].style.display = 'none';
+document.getElementsByClassName("project-details")[6].style.display = 'none';
+document.getElementsByClassName("project-details")[7].style.display = 'none';
+function showDetails1() {
+  var details = document.getElementsByClassName("project-details")[0];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails2() {
+  var details = document.getElementsByClassName("project-details")[1];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails3() {
+  var details = document.getElementsByClassName("project-details")[2];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails4() {
+  var details = document.getElementsByClassName("project-details")[3];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails5() {
+  var details = document.getElementsByClassName("project-details")[4];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails6() {
+  var details = document.getElementsByClassName("project-details")[5];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails7() {
+  var details = document.getElementsByClassName("project-details")[6];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
+function showDetails8() {
+  var details = document.getElementsByClassName("project-details")[7];
+  if (details.style.display === "none") {
+    details.style.display = "block";
+  } else {
+    details.style.display = "none";
+  }
+}
 /********** MODE **********/
 /* A function that changes the theme of the webpage. */
 let checkbox = document.querySelector('input[type="checkbox"]');
