@@ -127,9 +127,8 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
 
 #experience .section-title:hover {
     cursor: pointer;
-    /*background-color: #fefdfe;
-    box-shadow: 0 0 .5rem var(--neon-teal),0 0 .5rem #189494,0 0 .5rem #134848;*/
-    color: #c312fb;
+    /*background-color: #fefdfe;*/
+    box-shadow: 0 0 .5rem var(--neon-teal),0 0 .5rem #189494,0 0 .5rem #134848;
 }
   #xp-section {
     background: var(--smoky-black);
