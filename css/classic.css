@@ -33,11 +33,11 @@ body.classic > p,
 #site-name.classic h2,
 #welcome-section.classic span,
 #contact.classic #status,#contact.classic #status-for,
-#terminal.classic, #avatar.classic > #codename, #typing-container > .typing, #experience.classic > .section-title {
+#terminal.classic, #avatar.classic > #codename, #typing-container1 > .typing, #typing-container2 > .typing, #experience.classic > .section-title {
     font-family: 'Inconsolata', monospace;
 }
 
-#typing-container.classic {
+#typing-container1.classic, #typing-container2.classic {
     margin: 0 auto 4% auto;
 }
 
@@ -356,20 +356,20 @@ body.classic > p,
     font-weight: bold;
     text-shadow: none;
 }
-#gallery.classic > figure {
+#projects.classic > #gallery > figure {
     background-color: var(--silver);
     border-color: var(--white) var(--black) var(--black) var(--white);
     border-radius: 0;
     box-shadow: none;
 }
-    #gallery.classic > figure > a > img {
+    #projects.classic > #gallery > figure > a > img.project {
         filter: brightness(.9) grayscale(0);
         opacity: 100%;
     }
-    #gallery.classic > figure:hover {
+    #projects.classic > #gallery > figure:hover {
         box-shadow: none;
     }
-    #gallery.classic > #old-avatar {
+    #projects.classic > #gallery > #old-avatar {
         display: inline-block;
     }
 
@@ -458,6 +458,10 @@ body.classic > p,
     #skillbox.classic > .skill.bonus-margin-bottom {
         margin-bottom: 5%;
     }
+    #social.classic > .section-title {
+        padding: 5vh 7px 7px 30px;
+        width: 100%;
+    }
 }
 
 /******** MOBILE ********/
@@ -465,10 +469,10 @@ body.classic > p,
     #welcome-section > table {
         display: none;
     }
-    #profile-wrap {
+    #profile-wrap.classic {
         margin-top: 0;
     }
-    #typing-container.classic {
+    #typing-container1.classic, #typing-container2.classic {
         padding-bottom: 0;
     }
     #avatar.classic {
@@ -483,7 +487,6 @@ body.classic > p,
     #next-link-container.classic {
         display: flex;
         align-items: center;
-        margin: 3% auto;
     }
     #next-link-container.classic  > .intro-links {
         margin: 3% auto 3% 10%;
@@ -511,22 +514,49 @@ body.classic > p,
     #contact.classic {
         margin: 0 0 24% 0;
     }
+    #social.classic {
+        margin-top: 5vh;
+    }
 }
 
 @media (max-width: 479px) {
-    #profile-wrap-skills.classic > #next-link-container.classic {
-        margin: 10% auto 4% auto;
+    #welcome-section.classic > div:nth-child(2) > #next-link-container.classic {
+        width: 80vw;
+        margin-left: 18%;
     }
     #experience.classic > .section-title {
         margin: 7% auto 4% auto;
     }
     #social.classic {
-        margin-top: 30px;
+        margin-top: 12vh;
     }
     #skillbox.classic > .skill.bonus-margin-bottom {
         margin-bottom: 17%;
     }
    #xp-section.classic {
         margin-left: -1rem;
+    }
+}
+@media (max-width: 375px) {
+    /*#navbar.classic > .nav-container > div:nth-child(5) {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }*/
+    #navbar.classic > .nav-container > div:nth-child(6) {
+        padding-top: 10px;
+    }
+    #welcome-section.classic > div:nth-child(2) > #next-link-container.classic {
+        padding-top: 1rem;
+        margin-left: 14%;
+        width: 80vw;
+    }
+    #typing-container1.classic, #typing-container2.classic {
+        margin-bottom: 7%;
+    }
+    #projects.classic > .artifacts, #social.classic > .artifacts {
+        margin-top: 3%;
+    }
+    #social.classic > .artifacts {
+        margin-top: 7%;
     }
 }

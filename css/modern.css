@@ -23,7 +23,6 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         clip-path: polygon(80% 0,100% 70%,70% 90%,0 100%,0 0);
     }
     .nav-item:hover, .next-link:hover {
-        padding: 5px;
         background-color: var(--neon-pink);
         font-weight: 900;
     }
@@ -272,15 +271,10 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     #smudge {
         -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
     }
-    .nav-item:hover, .next-link:hover {
-        padding: 5px;
-        font-weight: 900;
-    }
     .nav-item:hover {
         background-color: var(--smoky-black);
     }
     .selected > a {
-        border-bottom: none;
         box-shadow: 20px 250px 600px 40px var(--neon-pink);
         color: var(--neon-pink);
     }

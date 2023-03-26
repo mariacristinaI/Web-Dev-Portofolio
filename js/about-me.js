@@ -15,7 +15,19 @@ function simulateTyping(element, text, delay) {
   
   simulateTyping(terminal, text, 70);
 
-  /********** MODE **********/
+/********** Display On-Click **********/
+/* If the element with the id "xp-section" is not displayed, display it. If it is displayed, hide it.*/
+document.getElementById("xp-section").style.display = 'none';
+function display() {
+  var list = document.getElementById("xp-section");
+  if (list.style.display === "none") {
+    list.style.display = "block";
+  } else {
+    list.style.display = "none";
+  }
+}
+
+/********** MODE **********/
 /* A function that changes the theme of the webpage. */
 let checkbox = document.querySelector('input[type="checkbox"]');
 
@@ -28,10 +40,14 @@ checkbox.onchange = function(e) {
     document.getElementById("site-name").className = "classic";
     document.getElementById("smudge").className = "classic";
     document.getElementById("hero").className = "classic";
-    document.getElementById("typing-container").className = "classic";
+    document.getElementById("typing-container1").className = "classic";
+    document.getElementById("typing-container2").className = "classic";
     document.getElementById("profile-wrap").className = "classic";
     document.getElementById("avatar").className = "classic";
     document.getElementById("description").className = "classic";
+    document.getElementById("profile-wrap-skills").className = "classic";
+    document.getElementById("skillbox").className = "classic";
+    document.getElementById("experience").className = "classic";
     document.getElementById("next-link-container").className = "classic";
     document.getElementById("copyright").className = "classic";
 
@@ -42,10 +58,14 @@ checkbox.onchange = function(e) {
     document.getElementById("site-name").className = "";
     document.getElementById("smudge").className = "";
     document.getElementById("hero").className = "";
-    document.getElementById("typing-container").className = "";
+    document.getElementById("typing-container1").className = "";
+    document.getElementById("typing-container2").className = "";
     document.getElementById("profile-wrap").className = "";
     document.getElementById("avatar").className = "";
     document.getElementById("description").className = "";
+    document.getElementById("profile-wrap-skills").className = "";
+    document.getElementById("skillbox").className = "";
+    document.getElementById("experience").className = "";
     document.getElementById("next-link-container").className = "";
     document.getElementById("copyright").className = "";
     localStorage.removeItem("isClassicMode");
@@ -60,10 +80,14 @@ if(classic) {
   document.getElementById("site-name").className = "classic";
   document.getElementById("smudge").className = "classic";
   document.getElementById("hero").className = "classic";
-  document.getElementById("typing-container").className = "classic";
+  document.getElementById("typing-container1").className = "classic";
+  document.getElementById("typing-container2").className = "classic";
   document.getElementById("profile-wrap").className = "classic";
   document.getElementById("avatar").className = "classic";
   document.getElementById("description").className = "classic";
+  document.getElementById("profile-wrap-skills").className = "classic";
+  document.getElementById("skillbox").className = "classic";
+  document.getElementById("experience").className = "classic";
   document.getElementById("next-link-container").className = "classic";
   document.getElementById("copyright").className = "classic";
   checkbox.checked = true;

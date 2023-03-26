@@ -46,6 +46,15 @@ function topFunction() {
 const emailRegex = /^[a-zA-Z0-9.-_]+@[a-zA-Z.-]+\.[a-z]{2,3}$/;
 const nameRegex = new RegExp('^[A-Z][a-z]+ ([A-Z]{1}\.? )?[A-Z][a-z]+(-[A-Z][a-z]+)?');
 
+/********** Hamburger Menu
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const navContainer = document.querySelector('.nav-container');
+
+hamburgerMenu.addEventListener('click', () => {
+  hamburgerMenu.classList.toggle('open');
+  navContainer.classList.toggle('show');
+});**********/
+
 /********** TIME **********/
 const today = new Date();
 let currentYear = today.getFullYear();

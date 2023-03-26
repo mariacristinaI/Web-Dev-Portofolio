@@ -99,12 +99,13 @@ h3 {
     
     .nav-column a {
       padding: 10px;
-      font-size: 20px;
-      text-decoration: none;
     }
 
     .nav-item {
       padding-top: 10px;
+    }
+    .nav-item:hover, .next-link:hover {
+      padding: 5px;
     }
     
     .toggle-column {
@@ -177,8 +178,9 @@ h3 {
         0 0 0.5rem #134848;
       color: var(--white);
     }
+/****/
 
-#typing-container {
+#typing-container1, #typing-container2 {
   height: 2.7rem;
   padding: 2rem 0 1% 0;
   margin-bottom: 3%;
@@ -407,7 +409,7 @@ h3 {
   flex-direction: column;
   font-family: sans-serif;
 }
-  #projects > #typing-container {
+  #projects > #typing-container1 {
     padding-top: 2rem;
   }
 
@@ -600,10 +602,35 @@ form .button {
 /********** MEDIA QUERIES **********/
 /******** DESKTOP ********/
 @media (min-width: 1024px) {
-  #projects > #typing-container {
+  #navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .nav-column {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-column a {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  #projects > #typing-container1 {
     padding-top: 2rem;
   }
-  #projects > #typing-container, .header-container {
+  #projects > #typing-container1, .header-container {
     margin-bottom: 2%;
   }
 }
@@ -653,6 +680,9 @@ form .button {
   .typing {
       font-size: 2.5rem;
   }
+  #skills-header {
+    font-size: 2.2rem;
+  }
 }
   
 /******** TABLET ********/
@@ -660,8 +690,11 @@ form .button {
   #welcome-section, #avatar, #greeting {
     display: block !important;
   }
-  #next-link-container > .next-link, #next-link-container > .prompt-symbol {
-    font-size: 1rem;
+  #profile-wrap {
+    margin: 7% 2% 2% 5%;
+  }
+  #profile-wrap-skills {
+    margin: 2% 2% 2% 5%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -672,15 +705,18 @@ form .button {
     margin: 2% 5%;
   }
 
-  #profile, #profile-wrap {
+  #profile, #profile-skills, #profile-wrap {
     flex-wrap: nowrap !important;
   }
 
   #profile-wrap-skills > #next-link-container {
     margin-top: 30%;
   }
+  #skillbox {
+    height: 60vh;
+  }
 
-  #status {
+  #status,   #next-link-container > .next-link, #next-link-container > .prompt-symbol {
     font-size: 19px;
   }
     #status-for {
@@ -705,7 +741,11 @@ form .button {
   .toggle-column {
     width: 100%;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .toggle-column > .on-off-message {
+    margin-top: 30%;
   }
 
   p, a, #terminal::before, .skill-list {
@@ -830,15 +870,53 @@ form .button {
 }
 
 @media (max-width: 479px) {
-  .on-off-message {
-    margin-top: 27%;
+  h3 {
+    font-size: 1.2rem;
   }
-  #next-link-container {
-    margin: 7% auto 1% auto;
+  #navbar {
+    border-left: 5px solid var(--neon-pink);
   }
-  #profile-wrap-skills > #next-link-container {
-    margin: 10% auto 4% auto;
+  #navbar.classic {
+    border-left: 5px solid var(--classic-blue)!important;
   }
+  #smudge {
+    display: none;
+  }
+  .nav-item:hover {
+    padding: 0;
+    font-weight: initial !important;
+  }
+  .switch {
+    margin-top: 10px;
+    height: 24px;
+  }
+    .slider::before {
+      height: 24px;
+      bottom: 0;
+    }
+  .toggle-column > .on-off-message {
+    margin-top: 20%;
+  }
+  #next-link-container, #next-link-container.classic {
+    margin: 7% auto 1% 4% !important;
+    text-align: left;
+  }
+    #next-link-container {
+      width: 100vw;
+    }
+    #next-link-container.classic, #projects-next-link > #next-link-container {
+      width: 80vw;
+    }
+  #projects-next-link > #next-link-container.classic {
+    margin-left: 12%!important;
+  }
+  #welcome-section > div:nth-child(2) > #next-link-container {
+    text-align: center;
+  }
+  .back, .ahead {
+    display: none;
+  }
+  
   #gallery {
     columns: 2;
     column-gap: 0;
