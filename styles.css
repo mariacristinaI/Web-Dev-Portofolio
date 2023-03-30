@@ -898,11 +898,11 @@ form .button {
     margin-top: 20%;
   }
   #next-link-container, #next-link-container.classic {
-    margin: 7% auto 1% 4% !important;
-    text-align: left;
+    margin: 7% auto 1% 7% !important;
+    text-align: center;
   }
     #next-link-container {
-      width: 100vw;
+      width: 80vw;
     }
     #next-link-container.classic, #projects-next-link > #next-link-container {
       width: 80vw;

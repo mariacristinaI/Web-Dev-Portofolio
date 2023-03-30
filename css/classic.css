@@ -522,7 +522,7 @@ body.classic > p,
 @media (max-width: 479px) {
     #welcome-section.classic > div:nth-child(2) > #next-link-container.classic {
         width: 80vw;
-        margin-left: 18%;
+        margin-left: 18% !important;
     }
     #experience.classic > .section-title {
         margin: 7% auto 4% auto;
