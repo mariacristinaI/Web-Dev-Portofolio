@@ -466,6 +466,7 @@ h3 {
   grid-template-columns: 30% 70%;
   margin: 3% 7% 0 7%;
   position: relative;
+  max-width: 100%;
 }
 
 #availability {
@@ -561,7 +562,7 @@ form .button {
   }
 .social-media {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   font-size: 36px;
   text-align: center;
   text-transform: uppercase;
@@ -572,6 +573,9 @@ form .button {
   .social-media a {
     font-size: 1.7rem;
     text-decoration: none;
+  }
+  .twitter {
+    color: #5dbaec;
   }
 
 /******** FOOTER ********/
@@ -716,6 +720,14 @@ form .button {
     #status-for {
       font-size: 17px;
     }
+  
+  #typing-container1, #typing-container2 {
+    margin-bottom: 7%;
+  }
+
+  #social {
+    margin-top: 17%;
+  }
 }
 
 /******** MOBILE ********/
@@ -859,7 +871,12 @@ form .button {
     width: 100%;
   }
   .social-media {
+    grid-template-columns: repeat(1, 1fr);
     padding-top: 5%;
+  }
+  .social-media a {
+    font-size: 1.5rem;
+    padding-top: 5px;
   }
 }
 

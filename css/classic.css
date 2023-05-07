@@ -459,6 +459,9 @@ body.classic > p,
         padding: 5vh 7px 7px 30px;
         width: 100%;
     }
+    #typing-container1.classic, #typing-container2.classic {
+        margin-bottom: 7%;
+    }
 }
 
 /******** MOBILE ********/
