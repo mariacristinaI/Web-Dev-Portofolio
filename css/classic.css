@@ -43,7 +43,6 @@ body.classic > p,
 
 #copyright.classic, #navbar.classic {
     box-shadow: -1px -1px var(--white)!important;
-    -webkit-box-shadow: -1px -1px var(--white);
 }
 
 #navbar.classic>ul,body.classic {
@@ -107,7 +106,6 @@ body.classic > p,
 	background: var(--silver);
 	border: 5px outset var(--white);
 	box-shadow: -1px -1px var(--white),0 -1px var(--white),-1px 0 var(--white),1px 1px var(--black),-1px 1px var(--black),1px -1px var(--black);
-	-webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
 }
     #copyright.classic,#navbar.classic>ul>li>a {
         color: var(--black);
@@ -138,7 +136,6 @@ body.classic > p,
     #welcome-section.classic .terminal {
         border: 3px outset #d3d3d3;
         box-shadow: 1px 1px var(--black-shadow);
-        -webkit-box-shadow: 1px 1px var(--black-shadow);
     }
     #welcome-section.classic > #widgets {
         display: block;

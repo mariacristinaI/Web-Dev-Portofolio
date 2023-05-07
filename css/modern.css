@@ -77,7 +77,6 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
 
 #greeting {
     border-left: 2px ridge var(--white);
-    -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
     box-shadow: 0 0 78px 4px var(--black-shadow);
 }
 
@@ -138,7 +137,6 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     .section-title:hover+#xp-section {
         border: 3px solid var(--dark-border);
         box-shadow: 0 0 78px 4px var(--black-shadow);
-        -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
     }
     .break {
         border-bottom: 2px solid var(--dark-border);
@@ -171,7 +169,6 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     padding: 10px 20px;
     margin: 3px;
     box-shadow: 0 0 78px 4px var(--black-shadow);
-    -webkit-box-shadow: 0 0 78px 4px var(--black-shadow);
     color: var(--white);
 }
 
