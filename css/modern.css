@@ -2,7 +2,7 @@
 body {
     background-color: var(--black);
     background-image: url(../assets/images/modern-design/shapes.svg);
-    border-left: 2px solid var(--neon-pink);
+    border-left: 2px solid var(--neon-teal);
     font-family: "Jura", monospace,sans-serif;
     animation: fadeBackground 27s infinite alternate;
     animation-fill-mode: none;
@@ -18,12 +18,12 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     color: #fff;
 }
     #smudge {
-        background-color: var(--neon-pink);
+        background-color: var(--neon-teal);
         -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
         clip-path: polygon(80% 0,100% 70%,70% 90%,0 100%,0 0);
     }
     .nav-item:hover, .next-link:hover {
-        background-color: var(--neon-pink);
+        background-color: var(--neon-teal);
         font-weight: 900;
     }
     .slider {
@@ -40,8 +40,8 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         box-shadow: 0 0 1px #c2e37c;
       }
     .selected > a {
-        border-bottom: 2px solid var(--neon-pink);
-        box-shadow: 20px 250px 600px 40px var(--neon-pink);
+        border-bottom: 2px solid var(--neon-teal);
+        box-shadow: 20px 250px 600px 40px var(--neon-teal);
     }
     #nostalgic {
         background-color: rgba(0, 0, 0, 0.75);
@@ -60,7 +60,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     color:var(--neon-teal)
 }
 .pink-text {
-    color: var(--neon-pink);
+    color: var(--neon-teal);
     font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     display: none;
 }
 #current-avatar {
-    border: 4px solid var(--neon-pink);
+    border: 4px solid var(--neon-teal);
 }
 #current-avatar:hover {
     border-color: var(--neon-teal);
@@ -142,10 +142,10 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         border-bottom: 2px solid var(--dark-border);
     }
     .xp-company {
-        color: var(--neon-pink);
+        color: var(--neon-teal);
     }
     .highlight-xp, #disclaimer > a {
-        text-shadow: 0 0 25px var(--neon-pink);
+        text-shadow: 0 0 25px var(--neon-teal);
     }
 #notepad, #heart-purple {
     display: none;
@@ -165,7 +165,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         }
 
 .description-box {
-    border-top: 2px solid var(--neon-pink);
+    border-top: 2px solid var(--neon-teal);
     padding: 10px 20px;
     margin: 3px;
     box-shadow: 0 0 78px 4px var(--black-shadow);
@@ -233,7 +233,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     color: #134848;
 }
 .button {
-    background: var(--neon-pink);
+    background: var(--neon-teal);
     border-radius: 4px;
     box-shadow: 4px 4px 4px 3px #189494;
     transition: all .2s ease-in-out;
@@ -251,7 +251,7 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
     border-top: 2px solid var(--dark-border);
 }
     .social-platform{
-        text-shadow: 10px 10px 25px var(--neon-pink);
+        text-shadow: 10px 10px 25px var(--neon-teal);
     }
     .social-platform >a:hover {
         font-weight: bold;
@@ -272,11 +272,11 @@ p, .nav-column a, #site-name, #greeting, .next-link, #copyright, #to-top, figcap
         background-color: var(--smoky-black);
     }
     .selected > a {
-        box-shadow: 20px 250px 600px 40px var(--neon-pink);
-        color: var(--neon-pink);
+        box-shadow: 20px 250px 600px 40px var(--neon-teal);
+        color: var(--neon-teal);
     }
 
     .xp-time {
-        border-right: 1px solid var(--neon-pink);
+        border-right: 1px solid var(--neon-teal);
     }
 }

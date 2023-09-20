@@ -885,7 +885,7 @@ form .button {
     font-size: 1.2rem;
   }
   #navbar {
-    border-left: 5px solid var(--neon-pink);
+    border-left: 5px solid var(--neon-teal);
   }
   #navbar.classic {
     border-left: 5px solid var(--classic-blue)!important;
