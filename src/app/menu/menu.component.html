@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-sm position-relative">
+  <div class="container-fluid fs-5">
+    <!-- <a class="navbar-brand" [routerLink]="['/']">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="dropdown position-absolute end-0 me-3 top-0 mt-2">
+      <button class="btn btn-dark dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="bi" [ngClass]="icons[currentTheme]"></i>
+        Theme
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end fs-5">
+        <li>
+          <button class="dropdown-item" type="button" (click)="changeTheme('modern')">
+            <i class="bi bi-controller"></i> Modern
+          </button>
+        </li>
+        <li>
+          <button class="dropdown-item" type="button" (click)="changeTheme('light')">
+            <i class="bi bi-joystick"></i> Retro
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

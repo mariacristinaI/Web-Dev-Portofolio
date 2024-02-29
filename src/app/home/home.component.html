@@ -1,0 +1,64 @@
+<div class="d-flex">
+  <div class="card terminal-window px-0 px-md-5 py-3 py-md-5">
+    <div class="card-body">
+      <div class="row align-items-center gx-5">
+        <div class="col-md-4 p-5 p-md-0 pb-0">
+          <img class="img-fluid d-block mx-auto box-shadow-right modern-image" src="/assets/modern-design/avatar.webp" width="335px" alt="Avatar" />
+          <img class="img-fluid d-none m-auto" src="../../assets/classic-design/pixelavatar.webp" alt="Avatar"/>
+        </div>
+        <div class="col-md-8 pt-4 fs-5">
+          <!-- <h1 class="text-center text-md-start">Hi there, I am Maria!</h1><br> -->
+          <div class="px-4 py-3">
+            <p class="fs-1">Hi!</p>
+            <p class="fs-1 m-0">I'm <span class="fw-bold mark-color">Maria-Cristina Iosub</span></p>
+            <p class="fs-2">I am a <span class="mark-color">Front-End Developer</span>, based in Romania.</p>
+            <br>
+            <p>
+              Beyond my professional pursuits, I channel my passion for technology into building personal web applications. 
+              This enjoyable endeavor enables me to test new concepts, and materialize my creative vision. 
+              I have expertise in <span class="fw-bold"> HTML, CSS, Javascript</span> and <span class="fw-bold">Content Management Systems</span>, and I am always eager to broaden my skills through the exploration of new technologies.
+              <br><br>
+              Currently, I am focused on expanding my knowledge on web development and
+              <span class="fw-bold">Web3</span>.
+            </p>
+          </div>
+          <div class="fs-5 float-end py-2 gray-top-border">
+            <a class="next-link text-decoration-none" [routerLink]="['/about']" title="About Maria-Cristina Iosub">More about me</a>
+            <span class="prompt-symbol"> | </span>
+            <a class="next-link text-decoration-none" [routerLink]="['/projects']">View My Projects</a>
+            <span class="prompt-symbol"> &gt;&gt;</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="d-flex justify-content-center">
+        <table class="mt-4 me-2" aria-hidden="true">
+          <tr>
+            <td>
+              <a href="https://www.moonconnection.com" target="mc_moon_ph" aria-label="Read more about the moon widget">
+                <img src="https://www.moonmodule.com/cs/dm/vn.gif" width="128" height="196" alt="" loading="lazy" />
+              </a>
+              <div style="position:relative;width:128px;">
+                <div style="position:absolute;top:-28px;left:6px;background:#000000;width:116px;text-align:center;">
+                  <a href="https://www.moonconnection.com/moon_phases.phtml" target="mc_moon_ph">
+                    <p color="#7F7F7F" size="1" face="arial,helvetica,sans-serif" style="margin-bottom:0;">
+                      <span style="color:#7F7F7F;font-family:arial,helvetica,sans-serif;font-size:10px;">moon phase</span>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div class="d-flex flex-column align-self-center">
+          <img class="mt-4 mb-3" src="/assets/classic-design/wwwbutton.gif" loading="lazy" alt="">
+          <img class="mb-3" src="/assets/classic-design/got_html.gif" loading="lazy" alt="">
+          <a [routerLink]="['/contact']"><img src="/assets/classic-design/sign_guestbook.gif"
+              alt="90s style button that goes to the contact page" loading="lazy"></a>
+        </div>
+      </div> -->
+      <div class="terminal-box fs-5 mx-auto px-3 py-3 text-center">
+        {{terminal.value}}<span class="blinker">&#32;</span>
+      </div>
+    </div>
+  </div>
+</div>

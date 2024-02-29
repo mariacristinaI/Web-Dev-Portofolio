@@ -1,0 +1,61 @@
+<div class="card terminal-window">
+  <div class="card-header mt-3 text-center">
+    <h1> {{terminal.value}}</h1>
+    <hr>
+    <img class="d-none" src="/assets/classic-design/under-construction.webp" loading="lazy" alt="">
+    <p class="fs-5"> 
+      These are all things I have developed in my free time, they are open-source and available on my
+      <a class="github" href="https://github.com/mariacristinaI" target="_blank">Github</a> 
+      profile.
+    </p>
+  </div>
+  <div class="card-body">
+    <div class="mx-md-5 px-2 px-md-4 py-2">
+      <div class="row">
+        <h2 class="col text-center">Featured</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="mt-4 mb-4 fs-4 text-center text-md-start">
+            <i class="fa-solid fa-circle-chevron-right icons" aria-hidden="true"></i> Algorithmic Playground
+          </h3>
+          <p class="mt-4 mb-4 fs-5">
+            A collection of algorithms that have been successfully solved by me. One of the standout achievements in my own projects. 
+            The focus of this personal challenge was to explore inventive methods for transforming numeric inputs,
+            resulting in a collection of unique and independent endeavors that showcase versatility and creativity.
+          </p>
+          <p>Build with HTML, CSS and JavaScript</p>
+          <div class="text-center text-md-start  pb-3 pb-md-0">
+            <a href="https://github.com/mariacristinaI/numeric-metamorphosis" target="_blank" title="Algorithmic Playground">View Project</a>
+            <i class="fa-solid fa-angles-right icons" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <a href="https://mariacristinai.github.io/numeric-metamorphosis/" target="_blank" title="Check the playground">
+            <img src="/assets/projects/Algorithms-Playground.webp" alt="Algorithms Playground project preview" class="img-fluid shadow-sm p-2 featured-app-img">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center fs-5 mt-2 mt-md-0">
+      <h2 class="text-center">Other apps</h2>
+      <p>Multiple websites made from scratch in HTML5, CSS3 and Javascript for testing different features and functionalities.</p>
+    </div>
+    <div class="projects mx-md-5">
+      <app-project-item class="text-center" *ngFor="let project of projects" [project]="project"/>
+    </div>
+    <div class="text-center fs-5 my-3">
+      <div> ... and below a drawing I've made in code. Press the switch in the navigation to see how it changes.</div>
+    </div>
+    <div class="mx-0 mx-md-5">
+      <app-city-skyline></app-city-skyline>
+    </div>
+    <div class="text-center my-3 fs-5">
+      <span class="prompt-symbol">&lt;&lt; </span>
+      <a class="next-link text-decoration-none" [routerLink]="['/about']">About me</a>
+      <span class="prompt-symbol"> | </span>
+      <a class="next-link text-decoration-none" [routerLink]="['/contact']">Contact</a>
+      <span class="prompt-symbol"> &gt;&gt;</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<header>
+  <app-menu></app-menu>
+</header>
+<main class="container mt-5">
+  <router-outlet></router-outlet>
+</main>
+<footer class="p-2 text-center">
+  <button class="btn" title="Go to top" [ngClass]="{'opacity-0': !displayScrollTop}" (click)="scrollToTop()">
+    <i class="bi bi-chevron-double-up"></i>
+  </button>
+  <br>
+  &copy;{{today | date:"yyyy"}} MCI
+</footer>
