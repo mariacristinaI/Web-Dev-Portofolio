@@ -3,11 +3,14 @@
 [![Author](https://img.shields.io/badge/Author-Maria%20Cristina%20Iosub-blue.svg)](https://github.com/mariacristinaI)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-29%20February%202024-yellow.svg)](https://github.com/mariacristinaI?tab=repositories)
 
-# 👋 Hello there! Welcome to my portfolio space. I'm Maria-Cristina,
-A <strong>front-end developer</strong> hailing from Romania, passionate about coding, continuous learning, and indulging in video games. <br>
-Within this repository are the code files for my web development portfolio website. It functions as an online showcase for my various web projects and résumé. Notably, the projects featured here are not client-related but rather represent my experimentation with different features and functionalities, each created from scratch. <br>
-The standout feature is the theme mode I crafted, allowing users to seamlessly switch between a modern color scheme and a nostalgic retro theme inspired by Windows 95 OS (Work in Progress). <br>
-The latest update is a significant overhaul. Evolving from a simple static site, I've revamped it to use [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8, enhancing its capabilities and providing a more dynamic and interactive user experience.
+# 👋 Hi there! Welcome to my space. I'm Maria-Cristina.
+I am <strong>front-end developer</strong> hailing from Romania, passionate about coding, continuous learning, and indulging in video games. <br><br>
+Within this repository are the code files for my web development portfolio website. <br>
+It functions as an online showcase for my various web projects and résumé. <br><br>
+<i>Notably, the projects featured here are not client-related but rather represent my experimentation with different features and functionalities, each created from scratch.</i><br><br>
+The standout feature is the <strong>theme mode</strong> I crafted, allowing users to seamlessly switch between a modern color scheme and a nostalgic retro theme inspired by Windows 95 OS (Work in Progress). <br><br>
+The latest update is a significant overhaul. <br><br>
+Evolving from a simple static site, I've revamped it to use [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8, enhancing its capabilities and providing a more dynamic and interactive user experience.
 
 ## :hammer_and_wrench: All languages and tools used:
 <div>
