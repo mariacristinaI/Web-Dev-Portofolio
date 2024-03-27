@@ -1,37 +1,39 @@
 <div class="card terminal-window">
-  <h1 class="card-header mt-3 text-center"> {{terminal.value}}</h1>
-  <section class="card-body row">
-    <div class="col col-md-4 text-center">
-      <div class="py-3">
-        <p class="d-inline-block fs-4">My availability:</p>
-        <div class="status-icon d-inline-block mx-3"></div>
-        <br>
-        <p class="text-center">Contributing to Open Source Projects</p>
+  <div class="welcome-window">
+    <h1 class="card-header mt-3 text-center"> {{terminal.value}}</h1>
+    <section class="card-body row">
+      <div class="col col-md-4 text-center">
+        <div class="py-3">
+          <p class="d-inline-block fs-4">My availability:</p>
+          <div class="status-icon d-inline-block mx-3"></div>
+          <br>
+          <p class="text-center">Contributing to Open Source Projects</p>
+        </div>
       </div>
-    </div>
-    <div class="col col-md-4 fs-5">
-      <form [formGroup]="form" class="py-3" action="https://formsubmit.co/640bb843532f339c173840039f71b10e" method="POST">
-        <label class="form-label mb-3" for="name">Write your name</label>
-        <input class="form-control" id="name" type="text" formControlName="name" placeholder="Ex: William Blake">
-  
-        <label class="form-label my-3" for="email">Email</label>
-        <input class="form-control" id="email" type="email" formControlName="email" placeholder="Ex: abc@example.com">
-  
-        <label class="form-label my-3" for="message">Message</label>
-        <textarea class="form-control" id="message" formControlName="message" placeholder="..." rows="5" cols="20"
-          maxlength="2000"></textarea>
-        <br>
-        <button type="submit" value="Submit" class="btn btn-primary w-100" [disabled]="form.invalid">Submit</button>
-      </form>
-    </div>
-  </section>
-  <section class="card-footer text-center">
-    <img class="border-bottom" src="/assets/classic-design/cat.gif" loading="lazy" alt="">
-    <h3 class="my-4"><img class="arrow" src="/assets/chevron-double-right.webp" loading="lazy" alt=""> Find me on ...</h3>
-    <div class="row text-center fs-4 my-4">
-      <div class="col"><a class="linkedin text-decoration-none" href="https://www.linkedin.com/in/iosubmariacristina/" target="_blank">LinkedIn</a></div>
-      <div class="col"><a class="github text-decoration-none" href="https://github.com/mariacristinaI" target="_blank">Github</a></div>
-      <div class="col"><a class="twitter text-decoration-none" href="https://twitter.com/mariacristina_i" target="_blank">Twitter</a></div>
-    </div>
-  </section>
+      <div class="col col-md-4 fs-5">
+        <form [formGroup]="form" class="py-3" action="https://formsubmit.co/640bb843532f339c173840039f71b10e" method="POST">
+          <label class="form-label mb-3" for="name">Write your name</label>
+          <input class="form-control" id="name" type="text" formControlName="name" placeholder="Ex: William Blake">
+    
+          <label class="form-label my-3" for="email">Email</label>
+          <input class="form-control" id="email" type="email" formControlName="email" placeholder="Ex: abc@example.com">
+    
+          <label class="form-label my-3" for="message">Message</label>
+          <textarea class="form-control" id="message" formControlName="message" placeholder="..." rows="5" cols="20"
+            maxlength="2000"></textarea>
+          <br>
+          <button type="submit" value="Submit" class="btn btn-primary w-100" [disabled]="form.invalid">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="card-footer text-center">
+      <img class="border-bottom" src="/assets/classic-design/cat.gif" loading="lazy" alt="">
+      <h3 class="my-4"><img class="arrow" src="/assets/chevron-double-right.webp" loading="lazy" alt=""> Find me on ...</h3>
+      <div class="row text-center fs-4 my-4">
+        <div class="col"><a class="linkedin text-decoration-none" href="https://www.linkedin.com/in/iosubmariacristina/" target="_blank">LinkedIn</a></div>
+        <div class="col"><a class="github text-decoration-none" href="https://github.com/mariacristinaI" target="_blank">Github</a></div>
+        <div class="col"><a class="twitter text-decoration-none" href="https://twitter.com/mariacristina_i" target="_blank">Twitter</a></div>
+      </div>
+    </section>
+  </div>
 </div>

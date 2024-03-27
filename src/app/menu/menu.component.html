@@ -1,6 +1,5 @@
-<nav class="navbar navbar-expand-sm position-relative">
+<nav class="navbar navbar-expand-sm">
   <div class="container-fluid fs-5">
-    <!-- <a class="navbar-brand" [routerLink]="['/']">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,7 +19,7 @@
         </li>
       </ul>
     </div>
-    <div class="dropdown position-absolute end-0 me-3 top-0 mt-2">
+    <div class="dropdown">
       <button class="btn btn-dark dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
         <i class="bi" [ngClass]="icons[currentTheme]"></i>
         Theme
@@ -32,7 +31,7 @@
           </button>
         </li>
         <li>
-          <button class="dropdown-item" type="button" (click)="changeTheme('light')">
+          <button class="dropdown-item" type="button" (click)="changeTheme('retro')">
             <i class="bi bi-joystick"></i> Retro
           </button>
         </li>

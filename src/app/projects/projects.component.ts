@@ -18,7 +18,6 @@ interface Project {
   standalone: true,
   imports: [CommonModule, RouterModule, ProjectItemComponent, CitySkylineComponent],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
   terminal = { value: 'P' };

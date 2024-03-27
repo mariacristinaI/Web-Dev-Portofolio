@@ -1,0 +1,313 @@
+[data-bs-theme="retro"] {
+  --window-bg: #cac6cb;
+  --classic-blue-color: #008080;
+  --bs-body-color: black;
+  --bs-body-color-rgb: #{to-rgb($black)};
+  --bs-body-bg: var(--classic-blue-color);
+  --bs-tertiary-bg: mix($gray-800, var(--classic-blue-color), 50%);
+  --bs-body-font-family: 'MS Sans Serif',sans-serif;
+  --bs-link-color: var(--classic-blue-color);
+  --bs-primary-border-subtle: #a785a7;
+  --silver: #c0c0c0;
+  --building-color1: #7c7da3;
+  --building-color2: #5dac8b;
+  --building-color3: #d07f88;
+  --building-color4: #61a3ea;
+  --window-color1: #aca1f3;
+  --window-color2: #78dfb4;
+  --window-color3: #e7abb7;
+  --window-color4: #7db5ef;
+
+  body {
+    background-image: none;
+    background-color: #fbe6e2;
+    .text-primary {
+      color: #e7cae2 !important;
+    }
+    .btn:disabled {
+      background-color: var(--dark-turquoise);
+      border-color: var(--dark-turquoise);
+    }
+    .modern-image {
+      display: none;
+    }
+    .classic-image {
+      display: block;
+      border: 3px double transparent;
+    }
+    .classic-image.avatar {
+      border-bottom: 3px double #d3d3d3;
+      box-shadow: 0 3px #d3d3d3, 0 7px #fcfcfc;
+    }
+    footer {
+      background-image: url(/assets/classic-design/wall.png);
+      border: 2px inset white;
+      box-shadow: 0 2px #808280, 0 4px white;
+      color: #e6e6e6;
+    }
+  }
+
+  .navbar {
+    --bs-navbar-color: #535353;
+    --bs-navbar-active-color: black;
+    background-color: var(--window-bg);
+    border: 5px outset white;
+    box-shadow: 0 -2px #fffdfc, 0 -4px #cce9eb;
+    a:hover {
+      background: #969696;
+      border-top: 2px solid #222;
+      border-right: 2px solid white;
+      border-bottom: 2px solid white;
+      border-left: 2px solid #222;
+    }
+    button {
+      background-color: var(--window-bg);
+      color: var(--bs-body-color);
+    }
+    .dropdown-toggle {
+      box-shadow: 0px -2px #e0dede, -2px 0 #e0dede, 0 -2px #e0dede, -4px -4px white, -4px 0 white, 0 -4px white, 2px 2px #818181, 0 2px #818181, 2px 0 #818181,  2px -2px #e0dede, -2px 2px #818181, -4px 2px white, -4px 4px black, 4px 4px black, 4px 0 black, 0 4px black, 2px -4px white, 4px -4px black;
+    }
+    .dropdown-menu {
+      --bs-dropdown-bg: var(--window-bg);
+      border-top: 2px solid white;
+      border-right: 2px solid #222;
+      border-bottom: 2px solid #222;
+      border-left: 2px solid white;
+      li:nth-child(1)>button {
+        color: #535353;
+      }
+      li:nth-child(2)>button {
+        background-color: #000184;
+        color: white;
+      }
+    }
+  }
+
+  .container {
+    min-height: calc(100vh - 11.375rem);
+  }
+
+  .terminal-window {
+    @extend .rounded, .rounded-3;
+    background: transparent;
+    backdrop-filter: none;
+    border: none;
+    box-shadow: none;
+    font-family: monospace;
+    .welcome-window {
+      background: var(--window-bg);
+      border: 7px outset lightgrey;
+      box-shadow: inset -1.5px -1.5px 0 0 #263238, inset 1.5px 1.5px 0 0 #dedcde, inset -3px -3px 0 0 #a099a1, inset 3px 3px 0 0 #fcfcfc;
+    }
+    .information-container {
+      background: #fcfcfc;
+      box-shadow: inset -1.5px -1.5px 0 0 #fcfcfc, inset 1.5px 1.5px 0 0 #a099a1;
+      overflow-y: scroll;
+    }
+    a {
+      color: var(--classic-blue-color) !important;
+    }
+    .mark-color {
+      color: var(--classic-blue-color);
+      text-shadow: 1px 1px black;
+    }
+    .next-link {
+      border-top: 2px solid white;
+      border-right: 2px solid #222;
+      border-bottom: 2px solid #222;
+      border-left: 2px solid white;
+      color: initial;
+    }
+    .terminal-box {
+      background-color: transparent;
+    }
+  }
+  .greeting {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  .timeline-journey {
+    button:after {
+      border-radius: 50%;
+      border: 3px solid #82a19a;
+      background-color: #6a6357;
+    }
+    button:hover::after {
+      background-color: var(--bs-primary-border-subtle);
+      border-color: #e7cae2;
+    }
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link:hover {
+    background-color: transparent;
+    color: var(--bs-primary-border-subtle);
+  }
+  .tab-pane {
+    background-color: #0000ff;
+    border-color: var(--silver) #010101;
+    border-style: solid double double double;
+    border-width: 5px;
+    color: white;
+  }
+
+  .featured-app-img {
+    background: initial;
+  }
+  .project-details {
+    figure>a>img {
+      filter: initial;
+    }
+    figure>a>img:hover {
+      box-shadow: none;
+    }
+    figure:hover>figcaption {
+      color: var(--classic-blue-color);
+    }
+  }
+  .featured-app-img, .project-details>figure>a>img {
+    border: 3px double var(--classic-blue-color);
+  }
+
+  #city-skyline {
+    border: 0;
+    .foreground-buildings {
+      border: 2px double var(--window-bg);
+    }
+    .sky {
+      background: radial-gradient(
+        circle closest-corner at 15% 15%,
+        #fae653 0,
+        #f2de3b 20%,
+        #f3e870 21%,
+        #c5cddc 100%
+      );
+    }
+    .oldie-css-button {
+      display: block;
+    }
+    #disclaimer {
+      color: var(--smoky-black);
+    }
+    .bb1-window {
+      background: linear-gradient(var(--building-color1), var(--building-color2));
+    }
+    .bb1d {
+      background: linear-gradient(var(--building-color1) 50%, var(--building-color2));
+    }
+    .bb2a {
+      border-bottom: 5vh solid var(--building-color2);
+    }
+    .bb2b {
+      background: repeating-linear-gradient(
+        var(--building-color2) 0,
+        var(--building-color2) 6%,
+        var(--window-color2) 6%,
+        var(--window-color2) 9%
+      );
+    }
+    .bb3 {
+      background: repeating-linear-gradient(
+        90deg,
+        var(--building-color3),
+        var(--building-color3),
+        var(--window-color3) 15%
+      );
+    }
+    .bb4a, .bb4b, .bb4c {
+      background-color: var(--building-color4);
+    }
+    .bb4-window {
+      background-color: var(--window-color4);
+    }
+    .fb1a {
+      border-bottom: 7vh solid var(--building-color4);
+    }
+    .fb1b {
+      background-color: var(--building-color4);
+    }
+    .fb1c {
+      background: repeating-linear-gradient(
+          90deg,
+          var(--building-color4) 0,
+          var(--building-color4) 10%,
+          transparent 10%,
+          transparent 15%
+        ),
+        repeating-linear-gradient(
+          var(--building-color4) 0,
+          var(--building-color4) 10%,
+          var(--window-color4) 10%,
+          var(--window-color4) 90%
+        );
+    }
+    .fb2-window {
+      background-color: var(--window-color3);
+    }
+    .fb2a {
+      border-bottom: 3vh solid var(--building-color3);
+    }
+    .fb2b {
+      background-color: var(--building-color3);
+    }
+    .fb3-window {
+      background-color: var(--building-color2);
+    }
+    .fb3a {
+      background-color: var(--building-color1);
+    }
+    .fb3b {
+      background-color: var(--building-color1);
+    }
+    .fb4-window {
+      background-color: var(--building-color2);
+    }
+    .fb4a {
+      border-left: 8vw solid var(--building-color1);
+    }
+    .fb4b {
+      background-color: var(--building-color1);
+    }
+    .fb5 {
+      background: repeating-linear-gradient(
+          var(--building-color2) 0,
+          var(--building-color2) 5%,
+          transparent 5%,
+          transparent 10%
+        ),
+        repeating-linear-gradient(
+          90deg,
+          var(--building-color2) 0,
+          var(--building-color2) 12%,
+          var(--window-color2) 12%,
+          var(--window-color2) 44%
+        );
+    }
+    .fb6 {
+      background: repeating-linear-gradient(
+          90deg,
+          var(--building-color3) 0,
+          var(--building-color3) 10%,
+          transparent 10%,
+          transparent 30%
+        ),
+        repeating-linear-gradient(
+          var(--building-color3) 0,
+          var(--building-color3) 10%,
+          var(--window-color3) 10%,
+          var(--window-color3) 30%
+        );
+    }
+  }
+
+  .form-control {
+    background-color: #fcfcfc;
+    border: 1px inset #d5d5d5;
+    box-shadow: -1px -1px 0 0 #828282;
+  }
+
+  .status-icon {
+    background: #00e800;
+    border-radius: 0;
+    outline: 3px outset #686a71 !important;
+  }
+}
