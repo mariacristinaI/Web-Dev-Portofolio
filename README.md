@@ -1,7 +1,7 @@
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/mariacristinaI/mariacristinaI)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://mariacristinai.github.io/mariacristinaI)
 [![Author](https://img.shields.io/badge/Author-Maria%20Cristina%20Iosub-blue.svg)](https://github.com/mariacristinaI)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-29%20February%202024-yellow.svg)](https://github.com/mariacristinaI?tab=repositories)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-27%20March%202024-yellow.svg)](https://github.com/mariacristinaI?tab=repositories)
 
 # 👋 Hi there! Welcome to my space. I'm Maria-Cristina.
 I am <strong>front-end developer</strong> hailing from Romania, passionate about coding, continuous learning, and indulging in video games. <br><br>
