@@ -25,7 +25,7 @@ export class ProjectsComponent {
     {
       title: 'The Cat Photo App',
       description: 'App displays a few cat photos along with a CSS animation of a beating heart and moving text.',
-      imageUrl: '/assets/projects/cat-photo-app.jpg',
+      imageUrl: '/assets/projects/cat-photo-app.webp',
       alt: 'Screenshot of the Cat Photo App. The web page displays a few cat photos and basic animations.',
       linkUrl: 'https://github.com/mariacristinaI/CatPhotoApp',
     },
