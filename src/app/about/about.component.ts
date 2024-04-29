@@ -10,6 +10,12 @@ import { typing } from '../utils';
   styleUrl: './about.component.scss',
 })
 export class AboutComponent implements OnInit {
+  Maria = {
+    name: "Maria-Cristina",
+    surname: "Iosub",
+    age: 28,
+    canCode: true,
+  };
   terminal = { value: 'M' };
   displayState = true;
 
