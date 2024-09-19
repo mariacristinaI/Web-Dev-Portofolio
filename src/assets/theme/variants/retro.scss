@@ -1,5 +1,6 @@
 [data-bs-theme="retro"] {
-  --window-bg: #cac6cb;
+  // --window-bg: #c3c6cb;
+  --window-bg: #c2c6c9;
   --classic-blue-color: #008080;
   --bs-body-color: black;
   --bs-body-color-rgb: #{to-rgb($black)};
@@ -20,9 +21,11 @@
 
   body {
     background-image: none;
-    background-color: #fbe6e2;
+    // background-color: #fbe6e2;
+    background-color: #b8e0df;
     .text-primary {
-      color: #e7cae2 !important;
+      // color: #e7cae2 !important;
+      color: #036d80 !important;
     }
     .btn:disabled {
       background-color: var(--dark-turquoise);
@@ -48,7 +51,7 @@
   }
 
   .navbar {
-    --bs-navbar-color: #535353;
+    --bs-navbar-color: #3b3c41;
     --bs-navbar-active-color: black;
     background-color: var(--window-bg);
     border: 5px outset white;
@@ -143,11 +146,14 @@
     color: var(--bs-primary-border-subtle);
   }
   .tab-pane {
-    background-color: #0000ff;
-    border-color: var(--silver) #010101;
+    // background-color: #0000ff;
+    // border-color: var(--silver) #010101;
+    // color: white;
+    background-color: #ffffff;
+    border-color: #010101;
+    color: black;
     border-style: solid double double double;
     border-width: 5px;
-    color: white;
   }
 
   .featured-app-img {
