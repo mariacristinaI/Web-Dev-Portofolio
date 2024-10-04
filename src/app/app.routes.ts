@@ -9,25 +9,25 @@ export const routes: Routes = [
   {
     path: 'home',
     loadComponent: () => import('./home/home.component').then(mod => mod.HomeComponent),
-    title: 'Home page',
+    title: 'MCI | Home page',
     data: { animation: 'HomePage' }
   },
   {
     path: 'about',
     loadComponent: () => import('./about/about.component').then(mod => mod.AboutComponent),
-    title: 'About',
+    title: 'MCI | About',
     data: { animation: 'AboutPage' }
   },
   {
     path: 'projects',
     loadComponent: () => import('./projects/projects.component').then(mod => mod.ProjectsComponent),
-    title: 'Projects',
+    title: 'MCI | Projects',
     data: { animation: 'ProjectsPage' }
   },
   {
     path: 'contact',
     loadComponent: () => import('./contact/contact.component').then(mod => mod.ContactComponent),
-    title: 'Contact',
+    title: 'MCI | Contact',
     data: { animation: 'ContactPage' }
   }
 ];

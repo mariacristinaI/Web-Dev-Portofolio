@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://maria-cristinaiosub.vercel.app/sitemap.xml
