@@ -9,25 +9,25 @@ export const routes: Routes = [
   {
     path: 'home',
     loadComponent: () => import('./home/home.component').then(mod => mod.HomeComponent),
-    title: 'MCI | Home page',
+    title: 'Portfolio | Maria-Cristina Iosub',
     data: { animation: 'HomePage' }
   },
   {
     path: 'about',
     loadComponent: () => import('./about/about.component').then(mod => mod.AboutComponent),
-    title: 'MCI | About',
+    title: 'About | Maria-Cristina Iosub',
     data: { animation: 'AboutPage' }
   },
   {
     path: 'projects',
     loadComponent: () => import('./projects/projects.component').then(mod => mod.ProjectsComponent),
-    title: 'MCI | Projects',
+    title: 'Projects | Maria-Cristina Iosub',
     data: { animation: 'ProjectsPage' }
   },
   {
     path: 'contact',
     loadComponent: () => import('./contact/contact.component').then(mod => mod.ContactComponent),
-    title: 'MCI | Contact',
+    title: 'Contact | Maria-Cristina Iosub',
     data: { animation: 'ContactPage' }
   }
 ];
