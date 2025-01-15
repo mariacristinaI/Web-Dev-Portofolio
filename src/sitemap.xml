@@ -7,22 +7,42 @@
 
 <url>
   <loc>https://maria-cristinaiosub.vercel.app/</loc>
-  <lastmod>2024-10-04T10:33:28+00:00</lastmod>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://maria-cristinaiosub.vercel.app/home</loc>
-  <lastmod>2024-10-04T10:33:28+00:00</lastmod>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://maria-cristinaiosub.vercel.app/about</loc>
-  <lastmod>2024-10-04T10:33:28+00:00</lastmod>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maria-cristinaiosub.vercel.app/posts</loc>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maria-cristinaiosub.vercel.app/posts/founder-mode</loc>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maria-cristinaiosub.vercel.app/posts/coded-from-scratch</loc>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://maria-cristinaiosub.vercel.app/projects</loc>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://maria-cristinaiosub.vercel.app/contact</loc>
-  <lastmod>2024-10-04T10:33:28+00:00</lastmod>
+  <lastmod>2025-15-04T10:33:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
