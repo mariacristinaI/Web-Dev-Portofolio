@@ -1,0 +1,60 @@
+[
+  {
+    "type": "DATE",
+    "text": "15 Jan, 2025"
+  },
+  {
+    "type": "TITLE",
+    "text": "🪴 Why I Chose to Code My Portfolio Website from Scratch"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "Having a portfolio is essential for any developer or designer. It serves as the ultimate showcase of your skills, creativity, and process. While there are various ways to present a portfolio—such as PDFs, video showcases, or even Obsidian pages—a website is the most popular and recognized format. When building a portfolio website, people face two choices: using website builders like Wordpress or coding it from scratch. <br><br> Most people gravitate toward website builders for their ease of use. And it is completely understandable. However, as a web developer, I decided to take the road less traveled and code my portfolio from scratch. Here's why I took this path:"
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "1. To <span class='garden-color'>Showcase My Technical Skills</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "As an individual with frontend development background, I wanted to emphasize my ability to <span class='mark-color'>bridge design and development</span>. Understanding the developer’s perspective enables me to create designs that are not only visually appealing but also technically feasible. By coding my portfolio, I demonstrated my technical skills alongside my design capabilities. "
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "2. To Have <span class='garden-color'>Creative and Functional Control</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "Building from the ground up gave me full creative and functional freedom. I wasn’t constrained by the limitations of templates or predefined options. I had the <span class='mark-color'>liberty to define every aspect</span> — from the foundational visual style to the overall website structure—exactly as I envisioned."
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "3. To Attain <span class='garden-color'>Cost Efficiency</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "This approach allowed me to design and deploy my portfolio at no cost. I designed on paper, coded it using HTML, CSS, Bootstrap and Angular in VS Code, and hosted it on Github for free. The years of learning gave me that advantage, the '<span class='mark-color'>no monetary cost</span>'. My only future expense will be purchasing a custom domain at some point. "
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "4. To <span class='garden-color'>Stay Connected to My Roots</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "Coding my portfolio helps me <span class='mark-color'>maintain my connection to development</span>, especially to Typescript and Angular. It’s a skill set that I continue to value and that shapes the way I approach design challenges."
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "Was Is The Right Choice?"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "In retrospect, was coding my portfolio from scratch the best decision? <span class='fw-bold mark-color'>Yes</span>. However, while it gives me a unique level of control and it showcases my technical expertise, it also demands significant time and effort to build and maintain.<br><br> But do I regret it? Not at all. The experience is incredibly rewarding, and I’m proud of the outcome. Ultimately, what matters is the quality of the work and the story it tells. I consider this portofolio <span class='mark-color fst-italic'> my digital garden</span>, a space to display my own growth and share some thoughts.<br><br> <i class='d-flex justify-content-end'>#NeverStopLearning</i>"
+  }
+]

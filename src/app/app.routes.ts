@@ -19,6 +19,17 @@ export const routes: Routes = [
     data: { animation: 'AboutPage' }
   },
   {
+    path: 'posts',
+    loadComponent: () => import('./blog/blog.component').then(mod => mod.BlogComponent),
+    title: 'Digital Garden | Maria-Cristina Iosub',
+    data: { animation: 'BlogPage' },
+  },
+  { 
+    path: 'posts/:id',
+    loadComponent: () =>
+      import('./blog/post/post.component').then((c) => c.PostComponent), 
+  },
+  {
     path: 'projects',
     loadComponent: () => import('./projects/projects.component').then(mod => mod.ProjectsComponent),
     title: 'Projects | Maria-Cristina Iosub',
@@ -29,5 +40,5 @@ export const routes: Routes = [
     loadComponent: () => import('./contact/contact.component').then(mod => mod.ContactComponent),
     title: 'Contact | Maria-Cristina Iosub',
     data: { animation: 'ContactPage' }
-  }
+  },
 ];

@@ -9,6 +9,7 @@
   --turquoise: #14c1c1;
   --dark-turquoise: #14c1c11f;
   --fuchsia: #e286ed;
+  --garden: #bce1a0;
 
   body {
     background-image: url(/assets/modern-design/futuristic-forest-bgd-blue.png);
@@ -76,8 +77,14 @@
     .highlight-color {
       color: #f1e05a;
     }
-    .mark-color {
-      color: #fff4e8;
+    .mark-color, .text-primary {
+      color: #a1e8df !important;
+    }
+    .garden-color {
+      color: var(--garden);
+    }
+    .light-blue-color {
+      color: var(--turquoise);
     }
     .next-link {
       border: 2px solid transparent;
@@ -260,5 +267,8 @@
     background-color: #1becaf;
     outline: 3px solid #12e5a7;
     filter: drop-shadow(0 0 13.2px rgba(179, 255, 26, 1));
+  }
+  .post-background {
+    background-color: #1b1a15d9;
   }
 }

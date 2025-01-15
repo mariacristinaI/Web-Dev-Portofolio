@@ -1,0 +1,41 @@
+<div class="card terminal-window">
+  <div class="welcome-window">
+    <h1 class="card-header mt-3 text-center">{{terminal.value}}</h1>
+    <section class="card-body row position-relative">
+      <div #rainContainer class="position-absolute top-0 bottom-0 z-n1"></div>
+      <div class="text-center">
+        <div class="py-3">
+          <div>
+            <p class="d-inline-block fs-4">Hydrated</p>
+            <div class="status-icon d-inline-block mx-3"></div>
+          </div>
+          <br>
+          <ul class="fs-5 mb-4">
+          @if (posts$ | async; as posts) {
+            @for (post of posts; track $index;) {
+              <li class="mb-2">
+                <a routerLink="./{{post.id}}" class="text-decoration-none garden-color">{{ post.title }} 🌱</a>
+              </li>
+            }
+          }
+          </ul>
+          <p class="fs-5">
+            <i class="bi bi-arrow-right"></i><a [routerLink]="['/projects']" class="text-decoration-none mark-color"> Personal Open-Source Projects: A Collection of Code Snippets Developed Over Time</a>
+          </p>
+        </div>
+      </div>
+      <div class="pt-4 fs-5 welcome-window">
+        <div class="information-container px-4 py-3">
+          <div class="fs-5 text-center">
+            <p class="my-4 mb-0"><img class="arrow" src="/assets/chevron-double-right.webp" loading="lazy" alt=""> ' Coding is to programming what typing is to writing.'</p>
+            <p style="padding-left: 30%">Leslie Lamport</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card-footer text-center">
+      <img class="classic-image border-bottom opacity-25 w-100" src="/assets/classic-design/flower-field.png" loading="lazy" alt="">
+      <img class="modern-image border-bottom opacity-25 w-100" src="/assets/modern-design/grass-field.png" loading="lazy" alt="">
+    </section>
+  </div>
+</div>
