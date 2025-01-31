@@ -1,0 +1,46 @@
+[
+  {
+    "type": "DATE",
+    "text": "25 Jan 2025"
+  },
+  {
+    "type": "TITLE",
+    "text": "The Cognitive Web 🕸️"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "So, I wrote about what the cognitive web means <a href='https://cognitiveweb.works/cognitive-web/' target='_blank'>here</a>. As I named my own brand <a href='https://cognitiveweb.works/home' target='_blank'>Cognitive Web Works</a>, I thought it would be good to get more into the meaning of its name. I defined it as a '<strong class='text-primary'>paradigm shift in Internet intelligence</strong>', which would mean a fundamental, transformative change in how we conceptualize and interact with digital systems. "
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "In the context of the cognitive web, this suggests moving beyond traditional, static web interfaces to intelligent, adaptive systems that:"
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'> Understand context dynamically</b>.",
+      "<b class='garden-color'> Learn from user interactions</b>.",
+      "<b class='garden-color'> Anticipate needs proactively</b>.",
+      "<b class='garden-color'> Provide personalized experiences</b>.",
+      "<b class='garden-color'> Process information more like human cognition</b>."
+    ]
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "Instead of users adapting to technology, the cognitive web represents technology adapting to users—a critical philosophical and functional transformation in digital interaction."
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "The phrase emphasizes that this isn't merely an incremental improvement, but a revolutionary approach to how digital platforms understand, process, and respond to human intelligence and intent. At the same time, we, as users need to improve our critical thinking on the web. I wanted to emphases the last point since we live in times where misinformation, fake news are more prevalent and we should double check what information we adhere to."
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "The web is getting smarter by day, and it is within our hands to dictate how it will look like in the future. <br><br> <i class='d-flex justify-content-end'>#EvolutionaryLeap</i>"
+  }
+]
