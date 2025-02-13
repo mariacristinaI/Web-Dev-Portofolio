@@ -1,0 +1,102 @@
+<div class="card terminal-window">
+  <div class="welcome-window">
+    <h1 class="card-header mt-3 pb-0 text-center">
+       {{terminal.value}}
+       <span><a class="btn btn-link fs-4" routerLink="/posts"><i class="bi bi-arrow-right"></i></a></span>
+    </h1>
+    <section class="card-body position-relative pt-3 post-background">
+
+
+<div class="timer-container">
+  <h2 class="mb-4" style="color:#f18f5e;">Pomodoro Timer</h2>
+  
+  <div class="preset-controls">
+    <button 
+      class="preset-btn"
+      [class.active]="workLengthMinutes === standardSession.work"
+      [disabled]="isRunning"
+      (click)="setSessionPreset('standard')">
+      Standard Mode
+      <span class="preset-details">(25min/5min)</span>
+    </button>
+    <button 
+      class="preset-btn"
+      [class.active]="workLengthMinutes === longSession.work"
+      [disabled]="isRunning"
+      (click)="setSessionPreset('long')">
+      Long Session
+      <span class="preset-details">(2hr/15min)</span>
+    </button>
+  </div>
+  
+  <!-- Session Length Controls -->
+  <div class="session-controls">
+    <div class="length-control">
+      <h2>Work Length</h2>
+      <div class="controls">
+        <button 
+          class="adjust-btn"
+          [disabled]="isRunning"
+          (click)="adjustSessionLength('work', -1)">
+          -
+        </button>
+        <span class="length-display">{{workLengthMinutes}} min</span>
+        <button 
+          class="adjust-btn"
+          [disabled]="isRunning"
+          (click)="adjustSessionLength('work', 1)">
+          +
+        </button>
+      </div>
+    </div>
+
+    <div class="length-control">
+      <h2>Break Length</h2>
+      <div class="controls">
+        <button 
+          class="adjust-btn"
+          [disabled]="isRunning"
+          (click)="adjustSessionLength('break', -1)">
+          -
+        </button>
+        <span class="length-display">{{breakLengthMinutes}} min</span>
+        <button 
+          class="adjust-btn"
+          [disabled]="isRunning"
+          (click)="adjustSessionLength('break', 1)">
+          +
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="timer">{{ timerDisplay }}</div>
+  <div class="controls">
+    <button 
+      [class]="isRunning ? 'pause' : 'start'"
+      (click)="toggleTimer()">
+      {{ isRunning ? 'Pause' : 'Start' }}
+    </button>
+    <button 
+      class="reset"
+      (click)="reset()">
+      Reset
+    </button>
+    <button 
+      class="mode-switch"
+      (click)="toggleMode()">
+      {{ isWorkMode ? 'Break Mode' : 'Work Mode' }}
+    </button>
+  </div>
+  <div class="status">
+    {{ isWorkMode ? 'Work Time' : 'Break Time' }}
+  </div>
+</div>
+<a [routerLink]="['/posts']"><img class="modern-image position-absolute z-1 h-25 border-0 opacity-70" style="right:20px; cursor: pointer;" src="/assets/modern-design/tomato-dancing.webp" loading="lazy" alt=""></a>
+</section>
+<section class="card-footer text-center">
+  <img class="classic-image border-bottom opacity-25 w-100" style="height:250px;" src="/assets/modern-design/flower-field.png" loading="lazy" alt="">
+  <img class="modern-image border-bottom opacity-25 w-100" style="height:200px;" src="/assets/modern-design/grass-field.png" loading="lazy" alt="">
+</section>
+</div>
+</div>

@@ -32,7 +32,7 @@
                   }
                   @case ("IMAGE") {
                     <div>
-                      <img [src]="part.src" class="d-block w-100" [alt]="part.alt" />
+                      <img [src]="part.src" class="d-block w-100" [alt]="part.alt" [style]="part.style"/>
                       <div class="float-end">
                         <h5>{{ part.captionTitle }}</h5>
                         <p>{{ part.captionText }}</p>

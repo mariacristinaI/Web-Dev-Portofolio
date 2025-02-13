@@ -1,0 +1,150 @@
+.timer-container {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.session-controls {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.length-control {
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #aba2a2;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .length-display {
+    min-width: 4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .adjust-btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #126465;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover:not(:disabled) {
+      background-color: #0c8d8f;
+    }
+
+    &:disabled {
+      background-color: #36393b;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.timer {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ced1c9;
+  margin: 1rem 0;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+}
+
+.start {
+  background-color: #a55a26;
+  color: white;
+}
+
+.pause {
+  background-color: #FFC107;
+  color: black;
+}
+
+.reset {
+  background-color: #59817c;
+  color: white;
+}
+
+.mode-switch {
+  background-color: #126465;
+  color: white;
+}
+
+.status {
+  font-size: 1.2rem;
+  color: #aba2a2;
+  margin-top: 1rem;
+}
+
+.preset-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  .preset-btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #126465;
+    border-radius: 0.5rem;
+    background-color: #2f3b3d;
+    color: #aba2a2;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+
+    &:hover:not(:disabled) {
+      background-color: #126465;
+      color: white;
+    }
+
+    &.active {
+      background-color: #126465;
+      color: white;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .preset-details {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  }
+}

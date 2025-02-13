@@ -10,6 +10,7 @@
   --dark-turquoise: #14c1c11f;
   --fuchsia: #e286ed;
   --garden: #bce1a0;
+  --tomato: #f18f5e;
 
   body {
     background-image: url(/assets/modern-design/futuristic-forest-bgd-blue.png);
@@ -84,6 +85,9 @@
     .garden-color {
       color: var(--garden);
     }
+    .tomato-color {
+      color:var(--tomato);
+    }
     .light-blue-color {
       color: var(--turquoise);
     }
@@ -131,17 +135,18 @@
   .featured-app-img {
     background: linear-gradient(0.65turn, #14c1c124, #5c616300, #2c536400);
   }
-  .project-details {
-    figure>a>img {
-      filter: grayscale(100%);
-    }
-    figcaption {
-      display: none;
-    }
-    figure>a>img:hover {
+ .project-image {
+    filter: grayscale(100%);
+  }
+  .project-image:hover {
       filter: none;
       box-shadow: #313130 0 5px 15px;
       translate: 0px -6px;
+    }
+
+  .project-details {
+    figcaption {
+      display: none;
     }
     figure:hover>figcaption {
       background-color: #191918;

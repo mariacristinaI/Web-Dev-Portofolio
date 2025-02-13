@@ -1,0 +1,100 @@
+[
+  {
+    "type": "DATE",
+    "text": "5 Feb, 2025"
+  },
+  {
+    "type": "TITLE",
+    "text": "🍅 The Pomodoro Technique: A Time Management Tool"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": " I love to learn, and I dedicate at least one hour every 3 days just to learn something new or just to cement my knowledge. Most of the times I tend to spend more than 1 hour. The disadvantage of that is feeling overwhelmed by the sheer volume of information. Depending on what I learn or do, I end up struggling to find focus when it comes to time. <br><br> In order to avoid that, I use the Pomodoro Technique. And I decided that since I am a developer, I might as well make my own <a href='https://maria-cristinaiosub.com/pomodoro-timer' class='tomato-color'>Pomodoro Timer</a>. My timer has the following features to help stay focused and productive:"
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>Standard Mode</b>: This follows the classic Pomodoro method, featuring 25 minutes of focused work followed by a 5-minute break.",
+      "<b class='garden-color'>Long Session Mode</b>: A custom option designed by me, allowing for 2 hours of work with a 15-minute break.",
+      "<b class='garden-color'>Fully customizable timer</b>: An option to set the timer to any duration you desire, whether it's a quick 5-minute burst or a longer, focused session."
+    ]
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>Why the timer?</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "I wanted <span class='mark-color'>a simple and custom timer</span> that uses the Pomodoro Technique. Plus, I wanted a quick option for a longer session too. The Pomodoro Technique is a simple yet powerful time management method that can help: "
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>Boost Productivity</b>:  By breaking down my work into manageable chunks, I can achieve more in less time.",
+      "<b class='garden-color'>Increase Focus</b>: The 25-minute work intervals encourage deep concentration, minimizing distractions.",
+      "<b class='garden-color'>Reduce Stress</b>: The regular breaks prevent burnout and allows my mind to rest and recharge",
+      "<b class='garden-color'>Increase Motivation</b>: Seeing tangible progress through the Pomodoro method boosted your motivation and kept me engaged."
+    ]
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>How it works</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "It is incredibly easy to implement. Here is how: "
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>Choose a task</b>: Have in mind a specific task you wish to do.",
+      "<b class='garden-color'>Set a timer for 25 minutes</b>: Focus solely on the chosen task for the entire 25 minutes.",
+      "<b class='garden-color'>Take a 5-minute break</b>: Step away from your computer, stretch, and allow your mind to relax.",
+      "<b class='garden-color'>Repeat steps 1-3</b>: After four Pomodoros, take a longer break of 15-20 minutes."
+    ]
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "P.S. <span class='fst-italic'>The longer session button option of my timer is my own <a href='https://maria-cristinaiosub.com/pomodoro-timer' class='tomato-color'>tomato sauce</a> I came up.</span>"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>The Takeaway</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "The Pomodoro Technique is a powerful tool for managing your time and boosting your productivity, especially when cultivating your work style. By incorporating this simple method into your workflow, you can create a more focused, efficient, and rewarding experience."
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>Side-note: Digital Garden Connection Analogy</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "The Pomodoro Technique aligns perfectly with the principles of a digital garden because you can: "
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>Focus on Growth</b>: Just like a garden needs consistent care, a digital garden thrives on regular attention and focused work.",
+      "<b class='garden-color'>Cultivate Ideas</b>: The breaks in the Pomodoro method provide fertile ground for new ideas to sprout and grow.",
+      "<b class='garden-color'>Harvest Results</b>: The Pomodoro Technique helps you harvest the fruits of your labor, producing valuable content for your digital garden."
+    ]
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "<b>Fun fact</b>: <span class='mark-color fst-italic'>Pomodoro means tomato in Italian. <br> Btw the tomato on <a href='https://maria-cristinaiosub.com/posts' class='mark-color'>the page with all the posts</a> will lead you to <a href='https://maria-cristinaiosub.com/pomodoro-timer' class='tomato-color'>the timer I made.</span></span>"
+  },
+  {
+    "type": "IMAGE",
+    "src": "/assets/modern-design/smiling-tomato.webp",
+    "alt": "A smiling tomato.",
+    "style": "position:absolute; right: 20px; bottom: -8%; z-index:1; width: 25% !important; border-radius: 50%; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);"
+  }
+]

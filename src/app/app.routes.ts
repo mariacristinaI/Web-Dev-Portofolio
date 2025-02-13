@@ -36,6 +36,12 @@ export const routes: Routes = [
     data: { animation: 'ProjectsPage' }
   },
   {
+    path: 'pomodoro-timer',
+    loadComponent: () => import('./pomodoro-timer/pomodoro-timer.component').then(mod => mod.PomodoroTimerComponent),
+    title: 'Pomodoro | Maria-Cristina Iosub',
+    data: { animation: 'PomodoroPage' }
+  },
+  {
     path: 'contact',
     loadComponent: () => import('./contact/contact.component').then(mod => mod.ContactComponent),
     title: 'Contact | Maria-Cristina Iosub',
