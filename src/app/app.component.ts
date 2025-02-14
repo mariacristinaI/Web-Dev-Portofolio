@@ -5,12 +5,11 @@ import { MenuComponent } from './menu/menu.component';
 import { slideInAnimation } from './animations';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterModule, MenuComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  animations: [slideInAnimation],
+    selector: 'app-root',
+    imports: [CommonModule, RouterOutlet, RouterModule, MenuComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    animations: [slideInAnimation]
 })
 export class AppComponent {
   today = new Date();

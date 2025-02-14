@@ -14,10 +14,9 @@ interface Project {
 }
 
 @Component({
-  selector: 'app-projects',
-  standalone: true,
-  imports: [CommonModule, RouterModule, ProjectItemComponent, CitySkylineComponent],
-  templateUrl: './projects.component.html',
+    selector: 'app-projects',
+    imports: [CommonModule, RouterModule, ProjectItemComponent, CitySkylineComponent],
+    templateUrl: './projects.component.html'
 })
 export class ProjectsComponent {
   terminal = { value: 'P' };

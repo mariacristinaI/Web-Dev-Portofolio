@@ -2,11 +2,10 @@ import { Component, OnDestroy } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-pomodoro-timer',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './pomodoro-timer.component.html',
-  styleUrl: './pomodoro-timer.component.scss'
+    selector: 'app-pomodoro-timer',
+    imports: [RouterLink],
+    templateUrl: './pomodoro-timer.component.html',
+    styleUrl: './pomodoro-timer.component.scss'
 })
 export class PomodoroTimerComponent implements OnDestroy{
   readonly terminal = { value: 'Digital Garden' };

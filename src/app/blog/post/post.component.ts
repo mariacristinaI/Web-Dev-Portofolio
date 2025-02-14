@@ -13,11 +13,10 @@ import { AsyncPipe, isPlatformBrowser } from '@angular/common';
 import { RainEffect } from '../rain';
 
 @Component({
-  selector: 'app-post',
-  standalone: true,
-  imports: [AsyncPipe, RouterLink],
-  templateUrl: './post.component.html',
-  styleUrl: './post.component.scss',
+    selector: 'app-post',
+    imports: [AsyncPipe, RouterLink],
+    templateUrl: './post.component.html',
+    styleUrl: './post.component.scss'
 })
 export class PostComponent {
   @ViewChild('rainContainer', { static: true }) rainContainer!: ElementRef; // Reference to the container.

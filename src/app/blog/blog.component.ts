@@ -16,11 +16,10 @@ import { PostsService } from './posts.service';
 import { RainEffect } from './rain';
 
 @Component({
-  selector: 'app-blog',
-  standalone: true,
-  imports: [AsyncPipe, RouterLink],
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.scss'],
+    selector: 'app-blog',
+    imports: [AsyncPipe, RouterLink],
+    templateUrl: './blog.component.html',
+    styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('rainContainer', { static: true }) rainContainer!: ElementRef; // Reference to the container.

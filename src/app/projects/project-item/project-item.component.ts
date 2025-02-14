@@ -10,10 +10,9 @@ interface Image {
 }
 
 @Component({
-  selector: 'app-project-item',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './project-item.component.html',
+    selector: 'app-project-item',
+    imports: [CommonModule],
+    templateUrl: './project-item.component.html'
 })
 export class ProjectItemComponent {
   @Input()

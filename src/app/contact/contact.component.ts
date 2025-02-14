@@ -4,10 +4,9 @@ import { CommonModule } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-contact',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './contact.component.html',
+    selector: 'app-contact',
+    imports: [CommonModule, ReactiveFormsModule],
+    templateUrl: './contact.component.html'
 })
 export class ContactComponent implements OnInit {
   terminal = { value: 'C' };
