@@ -12,19 +12,40 @@
         </div>
       </div>
       <div class="col col-md-4 fs-5">
-        <form [formGroup]="form" class="py-3" action="https://formsubmit.co/640bb843532f339c173840039f71b10e" method="POST">
+        <!-- <form [formGroup]="form" class="py-3" action="https://formcarry.com/s/SD0LYKk_9XD" method="POST" enctype="multipart/form-data">
           <label class="form-label mb-3" for="name">Write your name</label>
-          <input class="form-control" id="name" type="text" formControlName="name" placeholder="Ex: William Blake">
+          <input class="form-control" id="name" type="name" formControlName="name" name="name" placeholder="Ex: William Blake">
     
           <label class="form-label my-3" for="email">Email</label>
-          <input class="form-control" id="email" type="email" formControlName="email" placeholder="Ex: abc@example.com">
+          <input class="form-control" id="email" type="email" formControlName="email" name="email" placeholder="Ex: abc@example.com">
     
           <label class="form-label my-3" for="message">Message</label>
-          <textarea class="form-control" id="message" formControlName="message" placeholder="..." rows="5" cols="20"
+          <textarea class="form-control" id="message" formControlName="message" name="message" placeholder="..." rows="5" cols="20"
             maxlength="2000"></textarea>
           <br>
           <button type="submit" value="Submit" class="btn btn-primary w-100" [disabled]="form.invalid">Submit</button>
-        </form>
+        </form> -->
+        <form
+        class="py-3"
+        action="https://formcarry.com/s/SD0LYKk_9XD"
+        method="POST"
+        enctype="multipart/form-data"
+        >
+        <label class="form-label mb-3 w-100">
+          Write your name:
+          <input id="name" class="form-control" type="text" name="name" placeholder="Ex: William Blake">
+        </label>
+        <label class="form-label my-3 w-100">
+            Your email:
+            <input id="email" class="form-control" type="email" name="email" placeholder="Ex: abc@example.com">
+          </label>
+          <label class="form-label my-3 w-100">
+            Your message:
+            <textarea id="message" class="form-control" name="message" placeholder="..." rows="5" cols="20"
+            maxlength="2000"></textarea>
+          </label>
+          <button type="submit" value="Submit" class="btn btn-primary w-100">Send</button>
+      </form>
       </div>
     </section>
     <section class="card-footer text-center">

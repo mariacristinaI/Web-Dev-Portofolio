@@ -310,6 +310,22 @@
     border: 1px inset #d5d5d5;
     box-shadow: -1px -1px 0 0 #828282;
   }
+  form > button {
+    border-bottom: 6px inset rgba(0,0,0,.5);
+    border-left: 6px inset rgba(0,0,0,.5);
+    border-right: 6px inset rgba(255,255,255,.5);
+    border-top: 6px inset rgba(255,255,255,.5);
+    box-sizing: border-box;
+    color: white;
+    background: #747c6a;
+	
+    &:focus,
+    &:hover {
+      background: #747c6a;
+      border: 6px outset #d3d3d3;
+      color: white;
+    }
+  }
 
   .status-icon {
     background: #00e800;
