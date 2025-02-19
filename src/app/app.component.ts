@@ -15,7 +15,7 @@ export class AppComponent {
   today = new Date();
   displayScrollTop = false;
 
-  constructor(private contexts: ChildrenOutletContexts) { }
+  constructor(private readonly contexts: ChildrenOutletContexts) { }
 
   getRouteAnimationData() {
     return this.contexts.getContext('primary')?.route?.snapshot?.data?.['animation'];

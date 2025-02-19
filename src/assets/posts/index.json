@@ -1,5 +1,10 @@
 [
   {
+    "date": "20 Feb, 2025",
+    "title": "My Pomodoro Timer Just Got Smarter! 🎉",
+    "id": "pomodoro-timer-got-smarter"
+  },
+  {
     "date": "5 Feb, 2025",
     "title": "🍅 The Pomodoro Timer I Built",
     "id": "pomodoro-timer"
@@ -11,12 +16,12 @@
   },
   {
     "date": "5 Jan, 2025",
-    "title": "How I Entered the Founder Mode",
+    "title": "How I Entered the Founder Mode 🌱",
     "id": "founder-mode"
   },
   {
     "date": "15 Jan, 2025",
-    "title": "Why I Coded my Portofolio from Scratch",
+    "title": "Why I Coded my Portofolio from Scratch 🌱",
     "id": "coded-from-scratch"
   }
 ]

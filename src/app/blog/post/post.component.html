@@ -10,8 +10,8 @@
               @for (part of postParts; track $index) {
                 @switch (part.type) {
                   @case ("DATE") {
-                    <div class="d-flex align-items-center justify-content-between">
-                      <span class="fst-italic position-absolute end-0 me-5">{{ part.text }}</span>
+                    <div class="text-end fst-italic">
+                      {{ part.text }}
                     </div>
                   }
                   @case ("TITLE") {
@@ -50,7 +50,7 @@
       </div>
     </section>
     <section class="card-footer text-center">
-      <img class="classic-image border-bottom opacity-25 w-100" style="height:250px;" src="/assets/modern-design/flower-field.png" loading="lazy" alt="">
+      <img class="classic-image border-bottom opacity-25 w-100" style="height:250px;" src="/assets/classic-design/flower-field.png" loading="lazy" alt="">
       <img class="modern-image border-bottom opacity-25 w-100" style="height:200px;" src="/assets/modern-design/grass-field.png" loading="lazy" alt="">
     </section>
   </div>

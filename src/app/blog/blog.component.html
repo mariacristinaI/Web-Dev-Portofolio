@@ -14,7 +14,7 @@
           @if (posts$ | async; as posts) {
             @for (post of posts; track $index;) {
               <li class="mb-2">
-                <a routerLink="./{{post.id}}" class="text-decoration-none garden-color">{{ post.title }} 🌱</a>
+                <a routerLink="./{{post.id}}" class="text-decoration-none garden-color">{{ post.title }}</a>
               </li>
             }
           }

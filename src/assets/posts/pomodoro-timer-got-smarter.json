@@ -1,0 +1,55 @@
+[
+  {
+    "type": "DATE",
+    "text": "20 Feb, 2025"
+  },
+  {
+    "type": "TITLE",
+    "text": "Big News: My Pomodoro Timer Just Got Smarter! 🎉"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "I’ve been working on an exciting update for <a href='https://maria-cristinaiosub.com/pomodoro-timer' class='tomato-color'>my Pomodoro Timer</a>, and I’m thrilled to share it with you! The timer now runs smoothly in the background—even if you switch tabs or use another app—and it also notifies you when your session ends."
+  },
+  {
+    "type": "DIVIDER"
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>What’s New?</span>"
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>⏳ Reliable Background Timing</b>: The timer keeps running accurately, no matter what you're doing.",
+      "<b class='garden-color'>🔔 Desktop Notifications</b>: Get notified when your work or break session ends.",
+      "<b class='garden-color'>✅ All Features Intact </b>: Presets, length adjustments, and everything else you love still work as expected."
+    ]
+  },
+  {
+    "type": "SUBTITLE",
+    "text": "<span class='garden-color'>How It Works (For the Curious Minds 🛠️)</span>"
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "Previously, my timer relied on <span class='mark-color fst-italic'>requestAnimationFrame</span>, which pauses when a tab is inactive. To fix this, I integrated a <span class='mark-color fst-italic'>Web Worker</span>, allowing the timer to run in a separate thread. Here's what changed: "
+  },
+  {
+    "type": "LIST",
+    "items": [
+      "<b class='garden-color'>✔️ Replaced request AnimationFrame with a Web Worker</b>: Runs independently, so the timer stays accurate. Uses <span class='mark-color fst-italic'>setInterval</span> for precise timing.",
+      "<b class='garden-color'>✔️ Added Desktop Notifications</b>: Alerts you when work or break sessions end. Works even if the timer is running in the background.",
+      "<b class='garden-color'>✔️ Kept the Wake Lock API</b>: Prevents your device from going to sleep during a session."
+    ]
+  },
+  {
+    "type": "PARAGRAPH",
+    "text": "This update took some effort, but I love solving challenges like this! <br> Let me know if you give it a try— <a href='https://maria-cristinaiosub.com/contact'>I’d love to hear your thoughts.</a> 😊 🚀"
+  },
+  {
+    "type": "IMAGE",
+    "src": "/assets/modern-design/smiling-tomato.webp",
+    "alt": "A smiling tomato.",
+    "style": "position:absolute; right: 20px; bottom: -8%; z-index:1; width: 25% !important; border-radius: 50%; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);"
+  }
+]

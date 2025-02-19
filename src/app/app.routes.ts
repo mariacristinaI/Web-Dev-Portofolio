@@ -37,7 +37,7 @@ export const routes: Routes = [
   },
   {
     path: 'pomodoro-timer',
-    loadComponent: () => import('./pomodoro-timer/pomodoro-timer.component').then(mod => mod.PomodoroTimerComponent),
+    loadComponent: () => import('./pomodoro-timer/pomodoro-timer.component').then(mod => mod.PomodoroComponent),
     title: 'Pomodoro | Maria-Cristina Iosub',
     data: { animation: 'PomodoroPage' }
   },
