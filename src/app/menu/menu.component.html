@@ -11,12 +11,17 @@
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active">About</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active">Projects</a>
-        </li> -->
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/posts']" routerLinkActive="active">Posts</a>
-        </li>        
+        </li>  
+        <li class="nav-item dropdown nav-dropdown">
+          <a class="nav-link dropdown-toggle nav-dropdown-toggle border-top" routerLinkActive="active" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+          <ul class="dropdown-menu text-center">
+            <li><a class="dropdown-item tomato-color" [routerLink]="['/pomodoro-timer']" routerLinkActive="active">Pomodoro Timer</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/projects']" routerLinkActive="active">Code Snippets</a></li>
+            <li><a class="dropdown-item" href="https://cognitivewebworks.ro/" target="_blank">Cognitive Web Works</a></li>
+          </ul>
+        </li>      
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
         </li>
