@@ -8,7 +8,8 @@
 
 
 <div class="timer-container">
-  <h2 class="mb-4" style="color:#f18f5e;">Pomodoro Timer</h2>
+  <h2 class="mb-0">Pomodoro Timer</h2>
+  <p class="mb-4">A Time Management Tool</p>
   
   <div class="preset-controls">
     <button 
@@ -92,11 +93,18 @@
     {{ isWorkMode ? 'Work Time' : 'Break Time' }}
   </div>
 </div>
-<a [routerLink]="['/posts']"><img class="modern-image position-absolute z-1 h-25 border-0 opacity-70" style="right:20px; cursor: pointer;" src="/assets/modern-design/tomato-dancing.webp" loading="lazy" alt=""></a>
+<a [routerLink]="['/posts']">
+  <img class="classic-image classic-tomato-dancing position-absolute h-25 border-0 opacity-70 bottom-0 d-none d-md-block" style="right:20px; cursor: pointer;" src="/assets/classic-design/pixel-tomato-dancing.webp" loading="lazy" alt="">
+  <img class="modern-image position-absolute h-25 border-0 opacity-70 bottom-0 d-none d-md-block" style="right:20px; cursor: pointer;" src="/assets/modern-design/tomato-dancing.webp" loading="lazy" alt="">
+</a>
 </section>
 <section class="card-footer text-center">
-  <img class="classic-image border-bottom opacity-25 w-100" style="height:250px;" src="/assets/classic-design/flower-field.png" loading="lazy" alt="">
-  <img class="modern-image border-bottom opacity-25 w-100" style="height:200px;" src="/assets/modern-design/grass-field.png" loading="lazy" alt="">
+  <p class="timer-instruction text-center mb-0 fst-italic position-absolute z-1 mt-5 ms-md-5"><b class='garden-color fst-normal'>Pomodoro Technique Example</b>: Have in mind a specific task you wish to do. Set a timer for 25 minutes. Take a 5-minute break. <br> After four Pomodoros, take a longer break of 15-20 minutes.<br>
+    FYI, the <b class='garden-color fst-normal'>Long Session</b> mode is "my special sauce". You can find more information about the timer in my post <a [routerLink]="['/posts/pomodoro-timer']" class="tomato-color">here</a>.<br>
+    And if you liked the timer, consider buying me <a href="https://ko-fi.com/mariacristinaiosub" target="_blank">a cup of coffee</a> ☕. Cheers!
+  </p>
+  <img class="classic-image classic-garden-image opacity-25 w-100" src="/assets/classic-design/flower-field.png" loading="lazy" alt="">
+  <img class="modern-image modern-garden-image opacity-25 w-100" src="/assets/modern-design/grass-field.png" loading="lazy" alt="">
 </section>
 </div>
 </div>

@@ -38,6 +38,12 @@
       display: block;
       border: 3px double transparent;
     }
+      .classic-garden-image {
+        height: 160px !important;
+      }
+      .classic-tomato-dancing {
+        z-index: 2;
+      }
     .classic-image.avatar {
       border-bottom: 3px double #d3d3d3;
       box-shadow: 0 3px #d3d3d3, 0 7px #fcfcfc;
@@ -69,6 +75,10 @@
     }
     .dropdown-toggle {
       box-shadow: 0px -2px #e0dede, -2px 0 #e0dede, 0 -2px #e0dede, -4px -4px white, -4px 0 white, 0 -4px white, 2px 2px #818181, 0 2px #818181, 2px 0 #818181,  2px -2px #e0dede, -2px 2px #818181, -4px 2px white, -4px 4px black, 4px 4px black, 4px 0 black, 0 4px black, 2px -4px white, 4px -4px black;
+    }
+    .nav-dropdown-toggle {
+      border-color: transparent !important;
+      box-shadow: none;
     }
     .dropdown-menu {
       --bs-dropdown-bg: var(--window-bg);
@@ -172,6 +182,34 @@
   }
   .featured-app-img, .project-details>figure>a>img {
     border: 3px double var(--classic-blue-color);
+  }
+
+  .timer-container {
+    h2 {
+      color:#8f3407;
+    }
+  }
+  .timer {
+    color: var(--classic-blue-color);
+  }
+  .start {
+    background-color: #8f3407;
+    color: white;
+  }
+  .pause {
+    background-color: #fae39e;
+    color: black;
+  }
+  .reset {
+    background-color: #91968b;
+    color: white;
+  }
+  .mode-switch {
+    background-color: #6e7468;
+    color: white;
+  }
+  .adjust-btn {
+    background-color: #747c6a;
   }
 
   #city-skyline {
@@ -310,7 +348,7 @@
     border: 1px inset #d5d5d5;
     box-shadow: -1px -1px 0 0 #828282;
   }
-  form > button {
+  form > button, .preset-btn {
     border-bottom: 6px inset rgba(0,0,0,.5);
     border-left: 6px inset rgba(0,0,0,.5);
     border-right: 6px inset rgba(255,255,255,.5);

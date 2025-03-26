@@ -34,8 +34,14 @@
       border: 3px double #b7a18e7a;
       display: flex;
     }
+      .modern-garden-image {
+        height: 160px !important;
+      }
     .classic-image, .widgets {
       display: none !important;
+    }
+    .tomato-color {
+      color:var(--tomato);
     }
   }
 
@@ -49,13 +55,19 @@
       box-shadow: 20px 250px 600px 40px var(--turquoise);
       border-bottom: 2px solid #bbc9c7;
     }
+    .nav-dropdown-toggle {
+      border-color: transparent !important;
+    }
+      .dropdown-item:hover {
+        color: #03f1f1;
+      }
     .dropdown-toggle {
       background-color: transparent;
       border: none;
     }
     .dropdown-menu {
       --bs-dropdown-color: var(--bs-body-color);
-      --bs-dropdown-bg: var(--bs-body-bg);
+      --bs-dropdown-bg: rgba(18, 18, 14, 0.968627451);
       --bs-dropdown-link-active-bg: #012427;
   
       li:nth-child(1)>button {
@@ -85,19 +97,22 @@
     .garden-color {
       color: var(--garden);
     }
-    .tomato-color {
-      color:var(--tomato);
-    }
     .light-blue-color {
       color: var(--turquoise);
     }
     .next-link {
       border: 2px solid transparent;
     }
-    .welcome-window {
+    .welcome-window, .about-window {
       background-color: #20201e5e;
+    }
+    .welcome-window {
       border-left: 2px solid var(--turquoise);
       clip-path: polygon(0% 0%, 100% 0, 100% 100%, 1% 100%);
+    }
+    .about-window {
+      border-right: 2px solid var(--turquoise);
+      clip-path: polygon(0% 0%, 99% 0, 100% 100%, 1% 100%);
     }
     .list-box-shadow {
       box-shadow: -15px 0 15px -15px #2C3E50, 15px 0 15px -15px #2C3E50;
@@ -131,6 +146,50 @@
         opacity: 1;
       }
     }
+
+  .timer-container {
+    h2 {
+      color:#f18f5e;
+    }
+  }
+  .timer-instruction {
+    width: 100%;
+  }
+  .timer {
+    color: #ced1c9;
+  }
+  .preset-btn {
+    background-color: #2f3b3d;
+    border: 2px solid #126465;
+    color: #aba2a2;
+    &:hover:not(:disabled) {
+      background-color: #126465;
+      color: white;
+    }
+    &.active {
+      background-color: #126465;
+      color: white;
+    }
+  }
+  .adjust-btn {
+    background-color: #126465;
+  }
+  .start {
+    background-color: #a55a26;
+    color: white;
+  }
+  .pause {
+    background-color: #FFC107;
+    color: black;
+  }
+  .reset {
+    background-color: #59817c;
+    color: white;
+  }
+  .mode-switch {
+    background-color: #126465;
+    color: white;
+  }
 
   .featured-app-img {
     background: linear-gradient(0.65turn, #14c1c124, #5c616300, #2c536400);

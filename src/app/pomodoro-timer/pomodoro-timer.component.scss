@@ -35,7 +35,6 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: #126465;
     color: white;
     border: none;
     cursor: pointer;
@@ -58,7 +57,6 @@
 .timer {
   font-size: 4rem;
   font-weight: bold;
-  color: #ced1c9;
   margin: 1rem 0;
 }
 
@@ -82,26 +80,6 @@ button {
   }
 }
 
-.start {
-  background-color: #a55a26;
-  color: white;
-}
-
-.pause {
-  background-color: #FFC107;
-  color: black;
-}
-
-.reset {
-  background-color: #59817c;
-  color: white;
-}
-
-.mode-switch {
-  background-color: #126465;
-  color: white;
-}
-
 .status {
   font-size: 1.2rem;
   color: #aba2a2;
@@ -116,26 +94,13 @@ button {
 
   .preset-btn {
     padding: 0.75rem 1.5rem;
-    border: 2px solid #126465;
     border-radius: 0.5rem;
-    background-color: #2f3b3d;
-    color: #aba2a2;
     cursor: pointer;
     transition: all 0.3s;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.25rem;
-
-    &:hover:not(:disabled) {
-      background-color: #126465;
-      color: white;
-    }
-
-    &.active {
-      background-color: #126465;
-      color: white;
-    }
 
     &:disabled {
       opacity: 0.5;
