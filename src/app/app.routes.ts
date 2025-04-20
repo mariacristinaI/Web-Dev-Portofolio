@@ -47,4 +47,14 @@ export const routes: Routes = [
     title: 'Contact | Maria-Cristina Iosub',
     data: { animation: 'ContactPage' }
   },
+  {
+    path: 'not-found',
+    loadComponent: () => import('./not-found/not-found.component').then(mod => mod.NotFoundComponent),
+    title: '404 Not Found'
+  },
+  {
+    path: '**',
+    loadComponent: () => import('./not-found/not-found.component').then(mod => mod.NotFoundComponent),
+    title: '404 Not Found'
+  },
 ];

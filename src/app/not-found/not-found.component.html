@@ -1,0 +1,28 @@
+<div class="card terminal-window">
+  <div class="welcome-window">
+    <h1 class="card-header mt-3 text-center"> 🚧 Pathway Pruned!</h1>
+    <section class="card-body row position-relative">
+      <div class="text-center font-monospace p-md-5 fs-4 welcome-window">
+        <p class="mark-color fs-1">> Sorry, this page doesn't exist_</p>
+        <p class="fs-4">Why not explore other areas of this digital garden?</p>
+        <div class="d-flex col-md-8 m-auto">
+          <a [routerLink]="['/home']" >
+            <button class="btn fs-4 fst-italic w-100 m-md-3 retro-button">[Return to the Main Garden]</button>
+          </a>
+          <a [routerLink]="['/contact']">
+            <button class="btn fs-4 fst-italic w-100 m-md-3 retro-button">[Contact the Gardener]</button>
+          </a>
+        </div>
+        <div> 
+          <a [routerLink]="['/pomodoro-timer']" >
+            <button class="btn fs-4 fst-italic w-100 m-md-3 retro-button">[ Check your time 🍅 ]</button>
+          </a>
+        </div>
+      </div>
+      <figure>
+        <img class="img-fluid m-auto modern-image border-0 position-absolute z-n1 top-100 rise" src="/assets/modern-design/stream.webp" alt="A portrait of me surrounded by lush greenery and vibrant flowers in a botanical garden.">
+        <img class="img-fluid m-auto classic-image position-absolute top-0 my-4 d-none d-md-block" src="/assets/classic-design/error-sign.webp" alt="A pixelated computer" loading="lazy"/>
+      </figure>
+    </section>
+  </div>
+</div>
